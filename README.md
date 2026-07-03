@@ -1,8 +1,8 @@
 # 🧬 LifeSci Sentinel
 
-**LifeSci Sentinel** is an end-to-end healthcare analytics platform that transforms real-world pharmacovigilance data from the **OpenFDA API** into interactive business intelligence dashboards for drug safety monitoring, adverse event investigation, and safety signal detection.
+**LifeSci Sentinel** is an end-to-end healthcare analytics platform that transforms real-world pharmacovigilance data from the **OpenFDA API** into interactive business intelligence dashboards for [...]
 
-The project combines **Data Engineering, Data Warehousing, SQL Analytics, and Power BI** to demonstrate how raw healthcare data can be converted into actionable insights for pharmaceutical and life sciences organizations.
+The project combines **Data Engineering, Data Warehousing, SQL Analytics, and Power BI** to demonstrate how raw healthcare data can be converted into actionable insights for pharmaceutical and life[...]
 
 ---
 
@@ -134,12 +134,12 @@ Business Insights
 
 ## 📸 Dashboard Preview
 
-(Add screenshots here)
+Below are direct links to the dashboard images uploaded to this repository (in the same order as the modules above):
 
-- Executive Overview
-- Drug Investigation
-- Reaction Investigation
-- Safety Signal Monitor
+- [Executive Overview](https://github.com/AjitMahapatro/LifeSci-Sentinel-Drug-Safety-Analytics-Platform-/blob/main/Executive%20Overview)
+- [Drug Investigation](https://github.com/AjitMahapatro/LifeSci-Sentinel-Drug-Safety-Analytics-Platform-/blob/main/Drug%20Investigation)
+- [Reaction Investigation](https://github.com/AjitMahapatro/LifeSci-Sentinel-Drug-Safety-Analytics-Platform-/blob/main/Reaction%20Investigation)
+- [Safety Signal Monitor](https://github.com/AjitMahapatro/LifeSci-Sentinel-Drug-Safety-Analytics-Platform-/blob/main/Safety%20Signal%20Monitor)
 
 ---
 
