@@ -134,12 +134,33 @@ Business Insights
 
 ## 📸 Dashboard Preview
 
-Below are direct links to the dashboard images uploaded to this repository (in the same order as the modules above):
+Below are the dashboards uploaded to this repository, embedded so they display directly in the README (same order as the modules above):
 
-- [Executive Overview](https://github.com/AjitMahapatro/LifeSci-Sentinel-Drug-Safety-Analytics-Platform-/blob/main/Executive%20Overview)
-- [Drug Investigation](https://github.com/AjitMahapatro/LifeSci-Sentinel-Drug-Safety-Analytics-Platform-/blob/main/Drug%20Investigation)
-- [Reaction Investigation](https://github.com/AjitMahapatro/LifeSci-Sentinel-Drug-Safety-Analytics-Platform-/blob/main/Reaction%20Investigation)
-- [Safety Signal Monitor](https://github.com/AjitMahapatro/LifeSci-Sentinel-Drug-Safety-Analytics-Platform-/blob/main/Safety%20Signal%20Monitor)
+### Executive Overview
+
+![Executive Overview](https://raw.githubusercontent.com/AjitMahapatro/LifeSci-Sentinel-Drug-Safety-Analytics-Platform-/main/Executive%20Overview)
+
+---
+
+### Drug Investigation
+
+![Drug Investigation](https://raw.githubusercontent.com/AjitMahapatro/LifeSci-Sentinel-Drug-Safety-Analytics-Platform-/main/Drug%20Investigation)
+
+---
+
+### Reaction Investigation
+
+![Reaction Investigation](https://raw.githubusercontent.com/AjitMahapatro/LifeSci-Sentinel-Drug-Safety-Analytics-Platform-/main/Reaction%20Investigation)
+
+---
+
+### Safety Signal Monitor
+
+![Safety Signal Monitor](https://raw.githubusercontent.com/AjitMahapatro/LifeSci-Sentinel-Drug-Safety-Analytics-Platform-/main/Safety%20Signal%20Monitor)
+
+---
+
+> Note: If images do not render, GitHub may require files to have image extensions (e.g., .png). If you prefer, I can rename the files to add .png extensions and update links; say "rename files to .png" and I'll do it.
 
 ---
 
