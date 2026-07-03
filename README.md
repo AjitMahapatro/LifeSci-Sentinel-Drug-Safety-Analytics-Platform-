@@ -160,10 +160,6 @@ Below are the dashboards uploaded to this repository, embedded so they display d
 
 ---
 
-> Note: If images do not render, GitHub may require files to have image extensions (e.g., .png). If you prefer, I can rename the files to add .png extensions and update links; say "rename files to .png" and I'll do it.
-
----
-
 ## 🎯 Business Value
 
 LifeSci Sentinel demonstrates an end-to-end healthcare analytics workflow that enables:
