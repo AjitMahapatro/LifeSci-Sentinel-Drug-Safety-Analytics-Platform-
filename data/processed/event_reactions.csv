@@ -1,0 +1,2750 @@
+event_id,reaction_name
+5801206-7,DRUG ADMINISTRATION ERROR
+5801206-7,OVERDOSE
+10003300,Vomiting
+10003300,Diarrhoea
+10003300,Arthralgia
+10003300,Headache
+10003301,Dyspepsia
+10003301,Renal impairment
+10003302,Drug ineffective
+10003304,Drug hypersensitivity
+10003305,Drug hypersensitivity
+10003306,Cough
+10003306,Throat irritation
+10003307,Rhinorrhoea
+10003308,Unevaluable event
+10003308,Malaise
+10003309,Hepatic enzyme increased
+10003310,Back pain
+10003311,Oedema peripheral
+10003311,Fluid retention
+10003312,Pneumonia
+10003312,Drug ineffective
+10003313,Swelling
+10003313,Jaundice
+10003314,Back pain
+10003315,Death
+10003316,Oedema
+10003316,Fatigue
+10003316,Dyspnoea exertional
+10003316,Fluid retention
+10003317,Angioedema
+10003317,Laryngeal oedema
+10003317,Face oedema
+10003318,Tuberculosis of central nervous system
+10003319,Cholecystectomy
+10003319,Nephrolithiasis
+10003319,Biliary tract disorder
+10003319,Malaise
+10003320,Headache
+10003320,Hypotension
+10003321,Adenoviral haemorrhagic cystitis
+10003321,Pyrexia
+10003322,Tremor
+10003323,Fall
+10003323,Pain in extremity
+10003323,Hiccups
+10003324,Malaise
+10003324,Ocular hyperaemia
+10003325,Swelling
+10003326,Meconium stain
+10003326,Amniotic cavity infection
+10003326,Maternal exposure during pregnancy
+10003327,Respiratory failure
+10003327,Listeriosis
+10003327,Pyrexia
+10003327,Headache
+10003327,Vomiting
+10003327,Mental status changes
+10003327,Meningitis
+10003327,Pneumonia staphylococcal
+10003328,Type IV hypersensitivity reaction
+10003328,Skin toxicity
+10003328,Palmar-plantar erythrodysaesthesia syndrome
+10003328,Nail toxicity
+10003328,Arthralgia
+10003328,Myalgia
+10003328,Asthenia
+10003328,Diarrhoea
+10003328,Neuropathy peripheral
+10003329,Diarrhoea
+10003329,Abdominal pain
+10003329,Asthenia
+10003329,Diarrhoea
+10003329,Weight decreased
+10003329,Abdominal pain
+10003329,Blood creatinine increased
+10003329,C-reactive protein increased
+10003329,Dysuria
+10003329,Pyrexia
+10003329,Blood creatinine increased
+10003329,C-reactive protein increased
+10003329,Pleural effusion
+10003330,Feeling abnormal
+10003331,Chemical poisoning
+10003331,Neck pain
+10003331,Back pain
+10003331,Paraesthesia
+10003332,Proctalgia
+10003332,Anorectal discomfort
+10003332,Rectal haemorrhage
+10003333,Swelling
+10003334,Dry mouth
+10003334,Product quality issue
+10003335,Localised oedema
+10003335,Oedema peripheral
+10003335,Fluid retention
+10003335,Nasal congestion
+10003336,Metastases to spine
+10003336,Anxiety
+10003336,Renal cyst
+10003336,Metastases to thorax
+10003336,Metastases to retroperitoneum
+10003336,Emotional disorder
+10003336,Pancreatic carcinoma metastatic
+10003336,Metastases to liver
+10003336,Metastases to lung
+10003336,Emotional distress
+10003336,Lymphadenopathy
+10003336,Prostate cancer
+10003336,Peripheral venous disease
+10003337,Dysphonia
+10003337,Throat irritation
+10003338,Swollen tongue
+10003338,Pruritus
+10003338,Rash generalised
+10003339,Anaemia
+10003340,Listeriosis
+10003340,Pyrexia
+10003340,Diarrhoea
+10003340,Meningitis
+10003341,Dizziness
+10003341,Oedema
+10003341,Dyspnoea
+10003342,Overdose
+10003342,General physical health deterioration
+10003342,Malaise
+10003342,Drug ineffective
+10003343,Liver function test abnormal
+10003343,Liver disorder
+10003344,Headache
+10003345,Haematoma
+10003345,Thrombocytopenia
+10003345,International normalised ratio increased
+10003346,Dyspnoea
+10003346,Hypoxia
+10003347,Device dislocation
+10003348,Epistaxis
+10003348,Cough
+10003348,Nasal dryness
+10003348,Nasal congestion
+10003348,Haemoptysis
+10003348,Asthenia
+10003349,Cerebrovascular accident
+10003349,Blood pressure increased
+10003349,Pain
+10003350,Malaise
+10003350,Gingivitis
+10003351,Aggression
+10003351,Violence-related symptom
+10003351,Anger
+10003351,Blepharospasm
+10003351,Suicidal ideation
+10003352,Oedema peripheral
+10003353,Dyspnoea
+10003353,Drug ineffective
+10003354,Haemoglobin decreased
+10003355,Heart rate decreased
+10003356,Oedema peripheral
+10003357,Posterior reversible encephalopathy syndrome
+10003357,Cerebral haemorrhage
+10003357,Subarachnoid haemorrhage
+10003358,Dyspnoea
+10003359,Erection increased
+10003360,Hypertension
+10003361,Hyponatraemia
+10003362,Gastric disorder
+10003362,Dyspnoea
+10003363,Unevaluable event
+10003364,Drug hypersensitivity
+10003364,Pruritus
+10003364,Rash
+10003365,Oedema
+10003365,Fluid retention
+10003366,Oedema
+10003367,Unevaluable event
+10003367,Eructation
+10003367,Chest discomfort
+10003368,Pollakiuria
+10003368,Poor quality sleep
+10003368,Dyspnoea
+10003369,Feeling abnormal
+10003370,Swelling
+10003371,Nasal congestion
+10003371,Seasonal allergy
+10003372,Nausea
+10003373,Nasal congestion
+10003375,Loss of consciousness
+10003375,Listeriosis
+10003375,Pyrexia
+10003375,Headache
+10003375,Vomiting
+10003375,Meningitis
+10003376,Diarrhoea
+10003376,Arthralgia
+10003376,Nausea
+10003377,Malaise
+10003377,Weight fluctuation
+10003378,Dyspnoea
+10003378,Tremor
+10003378,Bone pain
+10003378,Presyncope
+10003379,Nasopharyngitis
+10003380,Respiratory tract infection
+10003380,Body temperature
+10003380,Pneumonia
+10003380,Productive cough
+10003381,No therapeutic response
+10003382,Blood count abnormal
+10003383,Unevaluable event
+10003384,Unevaluable event
+10003385,Dyspnoea exertional
+10003385,Fatigue
+10003386,Fluid retention
+10003386,Haemoglobin decreased
+10003387,Cellulitis
+10003388,Dyspnoea
+10003388,Dyspnoea exertional
+10003388,Oedema
+10003389,Hepatic enzyme decreased
+10003390,Headache
+10003390,Dyspnoea
+10003390,Diarrhoea
+10003390,Increased appetite
+10003390,Swelling
+10003390,Weight increased
+10003390,Vomiting
+10003391,Dyspnoea
+10003392,Subdural haematoma
+10003393,Peripheral swelling
+10003394,Dyspnoea exertional
+10003395,Tremor
+10003395,Dry mouth
+10003396,Unevaluable event
+10003397,Sopor
+10003397,Drug abuse
+10003397,Overdose
+10003398,"Hallucination, visual"
+10003398,Headache
+10003398,Insomnia
+10003398,Somnolence
+10003398,Confusional state
+10003399,Headache
+10003399,Dizziness exertional
+10003399,Haemoglobin decreased
+10003399,Dyspnoea
+10003400,Hot flush
+10003400,Rosacea
+10003401,Sinusitis
+10003402,Middle insomnia
+10003402,Chemotherapy
+10003402,Dyspnoea
+10003403,Sinusitis
+10003404,Oedema
+10003404,Weight decreased
+10003405,Asthenia
+10003405,Anaemia
+10003405,Tooth disorder
+10003406,Cognitive disorder
+10003406,Alopecia
+10003407,Ileus paralytic
+10003407,Abdominal pain
+10003407,Nausea
+10003408,Insomnia
+10003409,Dyspnoea
+10003409,Abdominal distension
+10003409,Swelling
+10003410,Dyspnoea
+10003411,Laboratory test abnormal
+10003412,Visual impairment
+10003412,Adverse reaction
+10003413,Infusion site infection
+10003414,Diarrhoea
+10003414,Vomiting
+10003414,Abdominal discomfort
+10003414,Malaise
+10003414,Dyspepsia
+10003415,Dizziness
+10003415,Loss of consciousness
+10003415,Fall
+10003416,Drug ineffective
+10003417,Thirst
+10003417,Nasal congestion
+10003418,Oxygen consumption increased
+10003418,Unevaluable event
+10003419,Anaemia
+10003419,Fatigue
+10003419,Fibrosis
+10003419,Dyspnoea
+10003419,Weight decreased
+10003420,Headache
+10003420,Vomiting
+10003420,Blood pressure decreased
+10003420,Nausea
+10003421,Insomnia
+10003422,Rash
+10003423,Influenza
+10003424,Foetal death
+10003424,Abortion late
+10003424,Amniotic cavity infection
+10003424,Maternal exposure during pregnancy
+10003425,Breast cancer
+10003425,Device misuse
+10003426,Uterine perforation
+10003426,Depression
+10003426,Anxiety
+10003426,Depressed mood
+10003426,Device issue
+10003426,Injury
+10003426,Pain
+10003426,Emotional distress
+10003427,Abdominal distension
+10003427,Headache
+10003427,Tinnitus
+10003427,Diarrhoea
+10003428,Foetal distress syndrome
+10003428,Intraventricular haemorrhage neonatal
+10003428,Low birth weight baby
+10003428,Listeriosis
+10003428,Pyrexia
+10003428,Sepsis
+10003428,Meningitis
+10003428,Pneumonia aspiration
+10003428,Oxygen saturation decreased
+10003428,Foetal exposure during pregnancy
+10003429,Meconium stain
+10003429,Amniotic cavity infection
+10003429,Maternal exposure during pregnancy
+10003430,Sinusitis
+10003430,Auricular haematoma
+10003430,Fall
+10003430,Wrist fracture
+10003430,Excessive cerumen production
+10003431,Chest pain
+10003431,Back pain
+10003432,Oedema peripheral
+10003432,Fluid retention
+10003433,Pain
+10003433,Weight increased
+10003433,Peripheral swelling
+10003433,Liver function test abnormal
+10003433,Dyspnoea
+10003434,Peripheral swelling
+10003435,Tooth extraction
+10003436,Syncope
+10003436,Dizziness
+10003437,Fatigue
+10003437,Oedema peripheral
+10003437,Drug ineffective
+10003437,Flushing
+10003438,Fatigue
+10003438,Asthenia
+10003439,Unevaluable event
+10003439,Swelling
+10003439,Hot flush
+10003439,Pruritus
+10003440,Insomnia
+10003441,Pain
+10003441,Fatigue
+10003441,Pain in extremity
+10003441,Oedema peripheral
+10003442,Cough
+10003442,Chest discomfort
+10003443,Ear infection
+10003444,Cardiac failure congestive
+10003444,Fluid retention
+10003444,Swelling
+10003445,Dyspnoea
+10003446,Unevaluable event
+10003447,Unevaluable event
+10003447,Nasopharyngitis
+10003447,Malaise
+10003447,Cough
+10003448,Unevaluable event
+10003448,Malaise
+10003449,Pyelonephritis
+10003449,Maternal exposure during pregnancy
+10003449,Normal newborn
+10003450,Blood pressure fluctuation
+10003450,Dyspepsia
+10003450,Allergic cough
+10003450,Headache
+10003450,Malaise
+10003451,Fluid retention
+10003452,Fatigue
+10003452,Dyspnoea exertional
+10003453,Throat irritation
+10003453,Wheezing
+10003453,Dyspnoea
+10003454,Dyspnoea
+10003455,Dental pulp disorder
+10003456,Therapeutic response decreased
+10003457,Cough
+10003458,Fluid overload
+10003459,Trigeminal neuralgia
+10003459,Pain in jaw
+10003459,Facial pain
+10003460,Cough
+10003461,Peripheral swelling
+10003461,Oedema peripheral
+10003462,Nasal disorder
+10003463,Drug ineffective
+10003463,Condition aggravated
+10003463,Dyspnoea
+10003464,Swelling
+10003465,Myalgia
+10003465,Back disorder
+10003465,Syncope
+10003465,Intervertebral disc protrusion
+10003465,Malaise
+10003465,Dyspnoea
+10003466,Dyspnoea
+10003466,Feeling abnormal
+10003466,Fatigue
+10003466,Asthenia
+10003467,Arthralgia
+10003467,Dyspnoea
+10003467,Cough
+10003468,Renal failure acute
+10003469,Cough
+10003470,Drug ineffective
+10003470,Pulmonary arterial hypertension
+10003471,Dyspnoea exertional
+10003472,Sinus disorder
+10003472,Cough
+10003472,Dyspnoea
+10003472,Oedema
+10003473,Palpitations
+10003474,Dyspnoea
+10003475,Arthralgia
+10003475,Headache
+10003475,Pain in jaw
+10003476,Productive cough
+10003476,Dyspnoea
+10003476,Pain in jaw
+10003476,Cough
+10003477,Polyuria
+10003477,Fatigue
+10003477,Weight increased
+10003478,Pain
+10003478,Depression
+10003478,Asthenia
+10003479,Vein disorder
+10003479,Peripheral vascular disorder
+10003480,Arthralgia
+10003481,Hypotension
+10003481,Fluid retention
+10003482,Dyspnoea
+10003483,Epistaxis
+10003483,Unevaluable event
+10003484,Blood glucose increased
+10003485,Fatigue
+10003486,Fatigue
+10003486,Headache
+10003486,Nasal congestion
+10003486,Dyspnoea
+10003486,Peripheral swelling
+10003487,Disorientation
+10003487,Drug prescribing error
+10003487,Incorrect dose administered
+10003487,Medication error
+10003488,Nasopharyngitis
+10003488,Sinus congestion
+10003488,Cough
+10003489,Dyspepsia
+10003490,Foetal death
+10003490,Amniotic cavity infection
+10003490,Maternal exposure during pregnancy
+10003491,Pharyngeal oedema
+10003492,Hypersensitivity
+10003492,Rash
+10003492,Pain
+10003492,Pruritus
+10003493,Drug ineffective for unapproved indication
+10003493,Pain in extremity
+10003494,Drug hypersensitivity
+10003495,Drug ineffective
+10003495,Swelling
+10003495,Joint swelling
+10003496,Sleep disorder
+10003496,Somnolence
+10003497,Headache
+10003497,Drug ineffective
+10003498,Erection increased
+10003498,Painful erection
+10003499,Insomnia
+10003500,Drug hypersensitivity
+10003501,Off label use
+10003501,Eye haemorrhage
+10003501,Blood creatinine increased
+10003501,Visual acuity reduced
+10003501,Ophthalmological examination abnormal
+10003501,Alanine aminotransferase increased
+10003501,Aspartate aminotransferase increased
+10003501,Feeling abnormal
+10003501,Somnolence
+10003501,Drug intolerance
+10003502,Weight increased
+10003503,Reaction to drug excipients
+10003504,Decreased appetite
+10003504,Fatigue
+10003504,Abdominal pain
+10003505,Spinal column stenosis
+10003505,Diabetes mellitus
+10003506,Respiratory disorder
+10003506,Dyspnoea
+10003506,Cough
+10003507,Blindness
+10003508,Abdominal pain
+10003508,Headache
+10003509,Acute graft versus host disease
+10003509,Chronic graft versus host disease
+10003509,Lung disorder
+10003509,Death
+10003509,Infection
+10003509,Mucosal inflammation
+10003509,Gastrointestinal toxicity
+10003509,Cardiotoxicity
+10003509,Neurotoxicity
+10003509,Hepatotoxicity
+10003509,Nephropathy toxic
+10003509,Transplant failure
+10003509,Venoocclusive disease
+10003509,Malignant neoplasm progression
+10003509,Off label use
+10003510,Infection
+10003510,Central venous catheterisation
+10003511,Peripheral swelling
+10003512,Femur fracture
+10003512,Fall
+10003513,Neutropenia
+10003514,Pain in extremity
+10003514,Hereditary angioedema
+10003514,Anxiety
+10003514,Panic attack
+10003514,Depression
+10003515,Vaginal haemorrhage
+10003515,Amenorrhoea
+10003515,Abdominal pain lower
+10003516,Cardiac failure congestive
+10003517,Hiccups
+10003518,Haemoglobin decreased
+10003519,Hepatocellular injury
+10003520,Adnexa uteri pain
+10003520,Drug ineffective
+10003520,Pregnancy with contraceptive device
+10003520,Embedded device
+10003520,Ovarian cyst
+10003520,Injury
+10003520,Dyspareunia
+10003520,Pain
+10003521,Skin lesion
+10003521,Migraine
+10003522,Endodontic procedure
+10003523,Asthenia
+10003524,Dyspnoea
+10003525,Uterine perforation
+10003525,Post procedural discomfort
+10003525,Pain
+10003525,Device dislocation
+10003525,Pregnancy with contraceptive device
+10003525,Drug ineffective
+10003525,Device difficult to use
+10003525,Uterine haemorrhage
+10003525,Injury
+10003525,Depression
+10003525,Anxiety
+10003525,Stress
+10003525,Device issue
+10003526,Dry mouth
+10003526,Dry eye
+10003526,Lip dry
+10003526,Dry throat
+10003526,Insomnia
+10003526,Depressed mood
+10003526,Odynophagia
+10003526,Crying
+10003526,Feeling abnormal
+10003526,Oesophageal pain
+10003526,Oropharyngeal pain
+10003526,Nausea
+10003526,Abdominal distension
+10003526,Contusion
+10003526,Blood count abnormal
+10003527,Hepatic enzyme increased
+10003528,Headache
+10003529,Oedema peripheral
+10003530,Oedema peripheral
+10003530,Gait disturbance
+10003531,Plasma cell myeloma
+10003531,Respiratory disorder
+10003531,Arrhythmia
+10003532,Chest pain
+10003532,Oedema peripheral
+10003532,Gastrooesophageal reflux disease
+10003534,Throat irritation
+10003534,Dysphonia
+10003535,Gout
+10003536,Feeling abnormal
+10003536,Suicidal ideation
+10003536,Fatigue
+10003536,Feeling cold
+10003536,Chills
+10003536,Decreased appetite
+10003537,Pollakiuria
+10003538,Palpitations
+10003538,Fatigue
+10003539,Pulmonary embolism
+10003539,Anaemia
+10003539,Haemoglobin decreased
+10003540,Oesophageal perforation
+10003540,Gastric haemorrhage
+10003540,Hepatic failure
+10003541,Generalised oedema
+10003541,Diarrhoea
+10003542,Nerve compression
+10003542,Mobility decreased
+10003542,Abasia
+10003543,Somnolence
+10003544,Balance disorder
+10003544,Drug level increased
+10003545,Death
+10003546,White blood cell count increased
+10003546,Gout
+10003546,Fatigue
+10003546,Red blood cell count decreased
+10003546,Muscle spasms
+10003546,Pruritus
+10003546,White blood cell count decreased
+10003546,Haemoglobin decreased
+10003546,Peripheral swelling
+10003546,Anaemia
+10003546,Blood triglycerides decreased
+10003546,Oedema peripheral
+10003546,Blood cholesterol decreased
+10003546,Blood count abnormal
+10003547,Insomnia
+10003548,Urticaria
+10003548,Somnolence
+10003549,Nasopharyngitis
+10003549,Malaise
+10003549,Pyrexia
+10003549,Nasal congestion
+10003549,Headache
+10003549,Diarrhoea
+10003549,Nausea
+10003550,Fatigue
+10003550,Dyspnoea
+10003550,White blood cell count abnormal
+10003550,Drug ineffective
+10003551,Breast cancer
+10003551,Erythema
+10003552,Fear
+10003552,Drug ineffective
+10003553,Fluid retention
+10003554,Monocyte count decreased
+10003554,Gamma-glutamyltransferase increased
+10003554,B-lymphocyte count decreased
+10003554,Skin lesion
+10003554,Mean platelet volume decreased
+10003554,Kaposi^s sarcoma
+10003554,White blood cell count decreased
+10003554,Lymphocyte count decreased
+10003554,Neutrophil count decreased
+10003554,T-lymphocyte count decreased
+10003555,Linear IgA disease
+10003556,Rheumatoid arthritis
+10003556,Arthralgia
+10003556,Rheumatoid factor increased
+10003556,Neck pain
+10003556,Back pain
+10003556,Musculoskeletal pain
+10003557,Oedema peripheral
+10003557,Weight increased
+10003558,Foetal exposure during pregnancy
+10003558,Cardiac murmur
+10003558,Postmature baby
+10003559,Pain in extremity
+10003559,Diarrhoea
+10003560,Staphylococcal infection
+10003561,Overdose
+10003562,Bipolar disorder
+10003563,Asthenia
+10003563,Palpitations
+10003563,Thirst
+10003563,Gait disturbance
+10003563,Death
+10003563,Influenza
+10003563,Weight decreased
+10003563,Nasopharyngitis
+10003563,Fall
+10003563,Confusional state
+10003564,Headache
+10003564,Abdominal pain
+10003564,Insomnia
+10003565,Fatigue
+10003565,Insomnia
+10003566,Subcutaneous haematoma
+10003566,Hypotension
+10003566,Anaemia
+10003566,Renal failure chronic
+10003567,Platelet count increased
+10003568,Overdose
+10003569,Dysgeusia
+10003569,Dry mouth
+10003569,Lip dry
+10003570,Death
+10003572,Oedema peripheral
+10003573,Ear haemorrhage
+10003573,Ear infection
+10003574,Sepsis
+10003575,Drug ineffective
+10003576,Tremor
+10003576,Tremor
+10003576,Atrial fibrillation
+10003576,Tremor
+10003576,Tremor
+10003577,Tonsillectomy
+10003578,Completed suicide
+10003578,Suicidal behaviour
+10003579,Loss of consciousness
+10003580,Sneezing
+10003580,Nasal congestion
+10003581,Blood count abnormal
+10003581,Haemoglobin decreased
+10003582,Hypertension
+10003582,Dehydration
+10003582,Night sweats
+10003582,Panic attack
+10003582,Hyperlipidaemia
+10003582,Insomnia
+10003582,Cold sweat
+10003582,Bipolar disorder
+10003582,Hyperhidrosis
+10003582,Dysgeusia
+10003582,Nausea
+10003583,Balance disorder
+10003583,Drug level increased
+10003584,Bone density decreased
+10003585,Overdose
+10003586,Surgery
+10003587,Platelet count decreased
+10003588,Deep vein thrombosis
+10003588,Splenomegaly
+10003589,Loss of consciousness
+10003589,Fall
+10003589,Gait disturbance
+10003589,Convulsion
+10003589,Influenza
+10003589,Speech disorder
+10003589,Malaise
+10003590,Overdose
+10003591,Atrioventricular block first degree
+10003591,Angina pectoris
+10003592,Adverse event
+10003593,Drug ineffective
+10003594,Muscle spasms
+10003594,Condition aggravated
+10003594,Pain
+10003594,Hypoaesthesia
+10003594,Abdominal distension
+10003594,Insomnia
+10003594,Fatigue
+10003594,Nausea
+10003594,Alopecia
+10003595,Transfusion
+10003596,Musculoskeletal chest pain
+10003596,Cough
+10003596,Fall
+10003596,Drug administration error
+10003597,Heart rate increased
+10003597,Ocular hyperaemia
+10003597,Flushing
+10003598,Convulsion
+10003599,Death
+10003600,Increased appetite
+10003600,Inappropriate schedule of drug administration
+10003600,Alopecia
+10003600,Abdominal distension
+10003600,Headache
+10003600,Weight increased
+10003601,Incorrect route of drug administration
+10003601,Off label use
+10003602,Overdose
+10003603,Hypersensitivity
+10003603,Hallucination
+10003603,Tardive dyskinesia
+10003604,Pruritus
+10003605,Mental disorder
+10003605,Panic attack
+10003605,Depression
+10003605,Anxiety
+10003605,Condition aggravated
+10003605,Off label use
+10003606,Pruritus
+10003606,Erythema
+10003607,Overdose
+10003608,Adverse drug reaction
+10003608,Thrombocytopenia
+10003609,Acute respiratory distress syndrome
+10003609,Multi-organ failure
+10003609,General physical health deterioration
+10003610,Feeling abnormal
+10003611,Blister
+10003611,Diarrhoea
+10003611,Nausea
+10003611,Fatigue
+10003611,Pain
+10003611,Catheter site inflammation
+10003611,Erythema
+10003611,Malaise
+10003611,Dizziness
+10003612,Death
+10003612,Pleural effusion
+10003612,Blister
+10003612,Hypothyroidism
+10003612,Blood potassium decreased
+10003612,Anaemia
+10003612,Nausea
+10003612,Vomiting
+10003612,Constipation
+10003612,Blood pressure increased
+10003612,Fluid retention
+10003612,Pollakiuria
+10003612,Local swelling
+10003612,Joint swelling
+10003612,Swelling
+10003613,Grand mal convulsion
+10003613,Malaise
+10003613,Abdominal pain upper
+10003614,Overdose
+10003615,Overdose
+10003616,Hyperthyroidism
+10003616,Diabetes mellitus
+10003617,Haemoglobin decreased
+10003617,Pyrexia
+10003617,Headache
+10003618,Device difficult to use
+10003618,No adverse event
+10003618,Product quality issue
+10003619,Alopecia
+10003620,Malnutrition
+10003620,Multiple sclerosis
+10003620,Loss of consciousness
+10003620,Weight decreased
+10003621,Fibroadenoma of breast
+10003621,Off label use
+10003622,Hyperthermia malignant
+10003623,Liver function test abnormal
+10003624,Overdose
+10003625,Neoplasm malignant
+10003626,Diabetes mellitus
+10003626,Endocarditis staphylococcal
+10003627,Nephrogenic systemic fibrosis
+10003628,Type 2 diabetes mellitus
+10003629,Overdose
+10003630,Haemorrhage
+10003630,Skin atrophy
+10003631,Drug hypersensitivity
+10003631,Alopecia
+10003632,Influenza
+10003632,Pneumonia
+10003633,Nephrogenic systemic fibrosis
+10003634,Staphylococcal infection
+10003634,Oral herpes
+10003635,Neutrophil count increased
+10003635,White blood cell count increased
+10003635,Abnormal behaviour
+10003636,Dehydration
+10003637,Hospitalisation
+10003637,Convulsion
+10003637,Convulsion
+10003638,Fatigue
+10003638,Malaise
+10003639,Lower limb fracture
+10003639,Syncope
+10003640,Diarrhoea
+10003640,Abdominal pain upper
+10003641,Medication residue present
+10003642,Osteomyelitis
+10003643,Hypotension
+10003643,Fatigue
+10003643,Chest discomfort
+10003643,Oxygen saturation decreased
+10003643,Dizziness
+10003644,Death
+10003645,Death
+10003646,Incorrect dose administered
+10003647,Erysipelas
+10003647,Sepsis
+10003648,Fluid retention
+10003649,Atrial septal defect
+10003649,Bundle branch block right
+10003649,Tachycardia
+10003650,Pancreatic disorder
+10003651,Rectal haemorrhage
+10003651,Rectal haemorrhage
+10003651,Asthenia
+10003651,Weight decreased
+10003652,Weight increased
+10003652,Oedema peripheral
+10003652,Fluid retention
+10003653,Death
+10003654,Hair growth abnormal
+10003654,Skin disorder
+10003654,Alopecia
+10003655,Organising pneumonia
+10003655,Fall
+10003655,Lung infection
+10003655,Urinary tract infection bacterial
+10003655,Lower respiratory tract infection bacterial
+10003655,Acute respiratory distress syndrome
+10003655,Loss of consciousness
+10003655,Psoriasis
+10003655,Blood cholesterol increased
+10003655,Amnesia
+10003655,Dyspnoea
+10003655,Headache
+10003655,Exposure to contaminated water
+10003656,Somnolence
+10003656,Drug dose omission
+10003657,Vomiting
+10003657,Nausea
+10003657,Fatigue
+10003657,Lethargy
+10003657,Abdominal pain upper
+10003658,Death
+10003659,Sleep disorder
+10003659,Sinus disorder
+10003660,Chest pain
+10003660,Tremor
+10003660,Headache
+10003661,Depression
+10003661,Wheelchair user
+10003661,Drug effect decreased
+10003662,Platelet count increased
+10003662,White blood cell count increased
+10003662,Drug ineffective
+10003663,Rash
+10003664,Disease progression
+10003664,Depression
+10003664,Confusional state
+10003664,Musculoskeletal stiffness
+10003664,Tremor
+10003664,Dyskinesia
+10003664,Movement disorder
+10003665,Malaise
+10003665,Ear pruritus
+10003665,Abnormal sensation in eye
+10003665,Ear swelling
+10003665,Pruritus
+10003665,Tinnitus
+10003665,Swelling
+10003666,Reflux laryngitis
+10003667,Death
+10003668,Dizziness
+10003668,Lethargy
+10003668,Gait disturbance
+10003669,Coeliac disease
+10003670,Blindness
+10003671,Dyspnoea
+10003671,Oedema peripheral
+10003672,Hypertension
+10003672,Blood pressure increased
+10003672,Hyperhidrosis
+10003672,Hyperhidrosis
+10003673,Multiple sclerosis
+10003674,Hypersensitivity
+10003674,Alopecia
+10003675,Implant site pruritus
+10003675,Implant site erythema
+10003676,Wrist fracture
+10003676,Arthritis
+10003677,Abdominal discomfort
+10003678,Neoplasm malignant
+10003678,Metastasis
+10003679,Fall
+10003679,Head injury
+10003679,Arthralgia
+10003679,Urinary tract infection
+10003680,Dyspnoea exertional
+10003681,Tremor
+10003682,Asthenia
+10003682,Ear infection
+10003682,Increased viscosity of bronchial secretion
+10003682,Sinus disorder
+10003683,Chronic obstructive pulmonary disease
+10003683,Endotracheal intubation
+10003683,Acute respiratory failure
+10003683,Hyperglycaemia
+10003683,Bronchitis pneumococcal
+10003683,Bronchitis
+10003684,Fatigue
+10003685,Drug level below therapeutic
+10003685,Drug level below therapeutic
+10003686,Nephrogenic systemic fibrosis
+10003687,Somnolence
+10003687,Trismus
+10003687,Fatigue
+10003688,Feeling abnormal
+10003688,Insomnia
+10003688,Unevaluable event
+10003688,Somnolence
+10003688,Dizziness
+10003689,Tooth loss
+10003689,Pain
+10003690,Rhinalgia
+10003690,Facial pain
+10003690,Mobility decreased
+10003690,Seizure
+10003691,Weight increased
+10003692,Implant site irritation
+10003692,Implant site bruising
+10003693,Oedema peripheral
+10003693,Oedema
+10003693,Dyspnoea
+10003694,Blood sodium decreased
+10003694,Cholelithiasis
+10003694,Hepatic mass
+10003694,Hyperglycaemia
+10003694,Dyspnoea
+10003694,Inappropriate antidiuretic hormone secretion
+10003695,Nausea
+10003696,Peripheral swelling
+10003697,Hyperthermia malignant
+10003698,Fallot^s tetralogy
+10003698,Cleft palate
+10003698,Autism
+10003698,Foetal exposure during pregnancy
+10003699,Liver function test abnormal
+10003700,Neuropathy peripheral
+10003701,Chronic obstructive pulmonary disease
+10003701,Emphysema
+10003701,Bronchitis
+10003701,Dyspnoea
+10003701,Stress
+10003701,Anxiety
+10003702,Somnolence
+10003702,Tremor
+10003703,Unevaluable event
+10003704,Hair texture abnormal
+10003705,Blood potassium increased
+10003706,Lung infection
+10003707,Suicide attempt
+10003707,Antipsychotic drug level below therapeutic
+10003707,Mental disorder
+10003707,Antipsychotic drug level above therapeutic
+10003707,Adverse reaction
+10003707,Suicidal ideation
+10003707,Dizziness
+10003707,Aphasia
+10003707,Syncope
+10003707,Memory impairment
+10003707,Bronchitis
+10003707,Irritability
+10003707,Feeling abnormal
+10003707,Amnesia
+10003707,Conversion disorder
+10003707,Visual impairment
+10003707,Vision blurred
+10003707,Headache
+10003707,Pyrexia
+10003707,Pain
+10003707,Injection site reaction
+10003707,Injection site haemorrhage
+10003707,Fatigue
+10003708,Confusional state
+10003708,Hyperammonaemia
+10003709,Diarrhoea
+10003710,Weight increased
+10003710,Abdominal pain upper
+10003710,Dyspnoea
+10003710,Cough
+10003711,Eye movement disorder
+10003711,Thinking abnormal
+10003712,Respiratory distress
+10003712,Pulmonary oedema
+10003712,Dyspnoea
+10003712,Pulmonary alveolar haemorrhage
+10003712,Pulmonary veno-occlusive disease
+10003712,Therapeutic response decreased
+10003712,Drug ineffective
+10003713,Rash
+10003713,Dyspnoea
+10003714,Hypersensitivity
+10003715,Limb discomfort
+10003715,Crying
+10003716,Drug ineffective for unapproved indication
+10003717,Haemoglobin decreased
+10003717,Weight increased
+10003718,Nephrogenic systemic fibrosis
+10003719,Hyperammonaemia
+10003720,Overdose
+10003721,Flat affect
+10003721,Thought withdrawal
+10003721,Mental impairment
+10003721,Dyspnoea
+10003721,Local swelling
+10003722,Pneumonia
+10003723,Pulmonary valve stenosis congenital
+10003723,Congenital anomaly
+10003723,Foetal exposure during pregnancy
+10003724,Drug ineffective
+10003725,Death
+10003725,Dyspnoea
+10003725,Fatigue
+10003725,Dysphonia
+10003725,Diarrhoea
+10003726,Convulsion
+10003726,Dyspnoea
+10003726,Skin discolouration
+10003726,Lip discolouration
+10003726,Status epilepticus
+10003726,Epilepsy
+10003726,Fall
+10003726,Tooth loss
+10003726,Central nervous system lesion
+10003726,Cognitive disorder
+10003726,Drug withdrawal syndrome
+10003726,Quality of life decreased
+10003726,General physical health deterioration
+10003726,Mental impairment
+10003726,Disorientation
+10003726,Affect lability
+10003726,Gait disturbance
+10003726,Speech disorder
+10003726,Anticonvulsant drug level decreased
+10003726,Drug effect decreased
+10003727,Investigation
+10003728,Hyperammonaemia
+10003729,Liver disorder
+10003729,Transaminases increased
+10003730,Disease progression
+10003731,Erythema
+10003731,Pruritus
+10003731,Wrong technique in drug usage process
+10003731,Product adhesion issue
+10003732,Diarrhoea
+10003733,Abortion induced
+10003733,Unintended pregnancy
+10003733,Medical device complication
+10003733,Product quality issue
+10003733,Drug dose omission
+10003734,Disease progression
+10003735,Haemorrhage
+10003735,Otorrhoea
+10003736,Renal failure acute
+10003737,Hair disorder
+10003737,Osteoporosis
+10003737,Alopecia
+10003738,Exposure during pregnancy
+10003739,Diarrhoea
+10003740,Type 2 diabetes mellitus
+10003741,Parkinson^s disease
+10003741,Neuropathy peripheral
+10003741,Intervertebral disc disorder
+10003741,Local swelling
+10003741,Oedema
+10003742,Cholelithiasis
+10003743,Headache
+10003744,Device expulsion
+10003744,Device expulsion
+10003745,Sedation
+10003746,Exposure during pregnancy
+10003747,Tooth disorder
+10003748,Bone marrow failure
+10003748,Bone marrow failure
+10003748,Neutrophil count decreased
+10003749,Chronic obstructive pulmonary disease
+10003750,Dementia Alzheimer^s type
+10003750,Hip fracture
+10003750,Cerebrovascular accident
+10003751,Nephrogenic systemic fibrosis
+10003752,Urinary tract infection
+10003753,Pancreatitis
+10003754,Hypoacusis
+10003755,Pneumonia
+10003756,Activities of daily living impaired
+10003756,Crying
+10003756,Drug ineffective
+10003756,Depression
+10003757,Medical device complication
+10003758,Overdose
+10003759,Drug hypersensitivity
+10003760,Disease progression
+10003761,Drug ineffective
+10003762,Pancytopenia
+10003763,Incorrect dosage administered
+10003763,Product compounding quality issue
+10003763,No adverse event
+10003764,Low turnover osteopathy
+10003764,Femur fracture
+10003764,Reflux laryngitis
+10003764,Gingival recession
+10003764,Intramedullary rod insertion
+10003764,Rib fracture
+10003764,Bone graft
+10003764,Squamous cell carcinoma of skin
+10003764,Osteoporosis
+10003764,Periodontal operation
+10003765,Visual impairment
+10003766,Adverse event
+10003767,Disease progression
+10003768,Loss of proprioception
+10003768,Fall
+10003768,Gait disturbance
+10003768,Asthenia
+10003769,Embedded device
+10003770,Back pain
+10003770,Back injury
+10003770,Amnesia
+10003771,Hyponatraemia
+10003771,Dyspnoea
+10003771,Pyrexia
+10003771,Pancreatitis
+10003771,Influenza
+10003771,Pneumonia
+10003771,Sepsis
+10003772,Disease progression
+10003773,Discomfort
+10003774,Dizziness
+10003775,Wrong technique in drug usage process
+10003775,Drug intolerance
+10003776,Disease progression
+10003777,Device difficult to use
+10003778,Off label use
+10003778,Drug ineffective
+10003779,Myocardial infarction
+10003780,Device expulsion
+10003780,Inappropriate schedule of drug administration
+10003780,No adverse event
+10003781,Faeces pale
+10003781,Headache
+10003781,Feeling jittery
+10003781,Heart rate increased
+10003781,Insomnia
+10003782,Disease progression
+10003783,Death
+10003784,Investigation
+10003785,Ammonia increased
+10003785,Unevaluable event
+10003785,Hypersensitivity
+10003786,Disease progression
+10003787,Disease progression
+10003788,Drug ineffective
+10003789,Disease progression
+10003790,Arthropathy
+10003790,Osteonecrosis
+10003791,Gangrene
+10003791,Gangrene
+10003792,Grand mal convulsion
+10003792,Vomiting
+10003792,Amnesia
+10003793,Drug hypersensitivity
+10003794,Disease progression
+10003795,Therapy change
+10003795,Therapy change
+10003796,Disease progression
+10003797,Full blood count abnormal
+10003797,Adverse drug reaction
+10003797,Increased tendency to bruise
+10003798,Sepsis
+10003798,Tooth infection
+10003799,Neurological decompensation
+10003799,Disease progression
+10003800,Malaise
+10003800,Drug dispensing error
+10003800,Rash
+10003800,Nausea
+10003800,Vomiting
+10003800,Off label use
+10003801,Thrombosis
+10003801,Device issue
+10003801,Arteriovenous fistula site complication
+10003802,Convulsion
+10003802,Pulmonary oedema
+10003803,Balance disorder
+10003803,Gait disturbance
+10003803,Gait disturbance
+10003804,Rib fracture
+10003805,Trigeminal neuralgia
+10003805,Dyskinesia
+10003805,Facial pain
+10003805,Tremor
+10003806,Gastroenteritis viral
+10003806,Peritonitis bacterial
+10003806,Diarrhoea
+10003807,Fluid overload
+10003807,Infected cyst
+10003807,Febrile neutropenia
+10003807,Febrile neutropenia
+10003807,Enterobacter pneumonia
+10003807,Corynebacterium infection
+10003807,Pharyngitis
+10003808,Malaise
+10003809,Hypotension
+10003809,Eye movement disorder
+10003809,Heart rate decreased
+10003809,Pulse abnormal
+10003809,Blood pressure diastolic increased
+10003810,Carnitine deficiency
+10003810,Hyperammonaemia
+10003810,Irritability
+10003810,Affective disorder
+10003810,Condition aggravated
+10003811,Staphylococcal infection
+10003811,Catheter site infection
+10003812,Muscular weakness
+10003812,Paraesthesia
+10003813,Pancreatitis
+10003813,Off label use
+10003814,Pulmonary haemorrhage
+10003814,Swelling
+10003814,Anaemia
+10003814,Hypotension
+10003815,Pneumonia
+10003815,Urinary tract infection
+10003815,Malaise
+10003815,Cardiac disorder
+10003815,Cardiovascular disorder
+10003815,Blood glucose increased
+10003816,Anaemia
+10003817,Sepsis
+10003818,Anger
+10003818,Hallucination
+10003819,Mixed liver injury
+10003820,Urinary tract infection
+10003820,Hypophagia
+10003820,Dehydration
+10003821,Granulocytopenia
+10003821,Leukopenia
+10003822,Headache
+10003822,Toothache
+10003822,Peritonitis
+10003822,Peritoneal dialysis complication
+10003823,Hypotension
+10003823,Pneumonia
+10003824,Rash
+10003825,Post procedural haemorrhage
+10003825,Acidosis
+10003826,Suicidal ideation
+10003826,Depression
+10003827,Haemorrhage
+10003827,Haematocrit decreased
+10003827,Rectal haemorrhage
+10003827,Haematochezia
+10003827,Mouth haemorrhage
+10003827,Epistaxis
+10003827,Pyrexia
+10003828,Stevens-Johnson syndrome
+10003829,Myocardial infarction
+10003830,Mycobacterium tuberculosis complex test positive
+10003830,Headache
+10003830,Chest discomfort
+10003831,Respiratory failure
+10003831,Chronic obstructive pulmonary disease
+10003832,Nausea
+10003832,Vomiting
+10003833,Myocardial infarction
+10003834,Balance disorder
+10003835,Cardiac flutter
+10003835,Therapeutic response decreased
+10003836,Incorrect route of drug administration
+10003837,Death
+10003838,Dreamy state
+10003838,Movement disorder
+10003838,Bruxism
+10003838,Speech disorder
+10003838,Repetitive speech
+10003838,Paraesthesia
+10003838,Crying
+10003838,Dizziness
+10003838,Speech disorder
+10003838,Dysstasia
+10003838,Vomiting
+10003838,Dysarthria
+10003838,Hyperhidrosis
+10003838,Nausea
+10003839,Parotitis
+10003839,Salivary hypersecretion
+10003839,Ear pain
+10003839,Odynophagia
+10003839,Parotid gland enlargement
+10003839,Oedema
+10003839,Inflammation
+10003839,Leukocytosis
+10003839,Anaemia
+10003839,Tachycardia
+10003839,Schizoaffective disorder bipolar type
+10003839,Drug ineffective
+10003840,Fluid retention
+10003840,Feeling abnormal
+10003840,Abnormal dreams
+10003840,Nightmare
+10003840,Insomnia
+10003840,Testicular swelling
+10003841,Convulsion
+10003842,Bursitis
+10003842,Abscess bacterial
+10003842,Staphylococcal infection
+10003843,Fall
+10003843,Rhabdomyolysis
+10003843,Somnolence
+10003844,Diabetes mellitus
+10003844,Gait disturbance
+10003844,Anaemia
+10003844,Blood triglycerides abnormal
+10003844,Muscular weakness
+10003844,Blood cholesterol abnormal
+10003844,Cough
+10003844,Influenza
+10003844,Bone disorder
+10003844,Patient-device incompatibility
+10003844,Pain
+10003845,Death
+10003846,Localised infection
+10003846,Diabetic ketoacidosis
+10003846,Abscess limb
+10003847,Platelet count abnormal
+10003847,Haematochezia
+10003848,Alopecia
+10003849,Transfusion
+10003849,Vision blurred
+10003849,Intraocular pressure increased
+10003850,Rectocele
+10003851,Weight decreased
+10003851,Weight increased
+10003851,Dizziness
+10003851,Anaemia
+10003852,Product quality issue
+10003852,Nervousness
+10003852,Feeling jittery
+10003852,Drug ineffective
+10003852,Phobia
+10003852,Mania
+10003852,Agitation
+10003852,Confusional state
+10003853,Cardiac arrest
+10003853,Arrhythmia
+10003853,Acidosis
+10003853,Respiratory distress
+10003853,Status epilepticus
+10003854,Unevaluable event
+10003855,Death
+10003856,Blood pressure increased
+10003856,Ear congestion
+10003856,Arthralgia
+10003856,Abdominal pain
+10003856,Thinking abnormal
+10003856,Drug dispensing error
+10003856,Epistaxis
+10003856,Contusion
+10003856,Haemoglobin decreased
+10003856,White blood cell count decreased
+10003857,Gastrointestinal stromal tumour
+10003857,Malignant neoplasm progression
+10003857,Intestinal obstruction
+10003857,Pyrexia
+10003857,Abdominal pain upper
+10003858,Hypersensitivity
+10003859,Blood count abnormal
+10003859,Platelet count decreased
+10003860,Injury
+10003860,General physical health deterioration
+10003860,Cerebrovascular arteriovenous malformation
+10003860,Gastrooesophageal reflux disease
+10003860,Peripheral artery thrombosis
+10003860,Pain
+10003860,Anxiety
+10003860,Abdominal pain
+10003860,Emotional distress
+10003861,Incorrect route of drug administration
+10003861,Off label use
+10003862,Drug hypersensitivity
+10003862,Hepatic enzyme increased
+10003863,Rash
+10003863,Hypersensitivity
+10003864,Platelet count decreased
+10003864,Blood count abnormal
+10003865,Cerebral venous thrombosis
+10003865,Jugular vein thrombosis
+10003866,Subdural haematoma
+10003867,Musculoskeletal stiffness
+10003867,Myalgia
+10003868,Dizziness
+10003869,Platelet count decreased
+10003869,Stem cell transplant
+10003869,Splenomegaly
+10003869,Contusion
+10003870,Thrombosis
+10003870,Injury
+10003870,Emotional distress
+10003870,Deep vein thrombosis
+10003870,Anxiety
+10003870,Pain
+10003870,Abdominal pain
+10003870,General physical health deterioration
+10003871,Type 2 diabetes mellitus
+10003872,Malaise
+10003873,Drug administration error
+10003874,Death
+10003875,International normalised ratio fluctuation
+10003876,Fall
+10003876,Concussion
+10003876,Clavicle fracture
+10003876,Hip fracture
+10003876,Parkinsonism
+10003876,Mobility decreased
+10003876,Faecal incontinence
+10003876,Urinary incontinence
+10003876,Depression
+10003876,Memory impairment
+10003876,Fatigue
+10003876,Fall
+10003876,Pain
+10003876,Fall
+10003876,Fall
+10003876,Gait disturbance
+10003876,Emotional distress
+10003877,Type 2 diabetes mellitus
+10003878,Medication error
+10003879,Dyspnoea
+10003879,Exercise tolerance decreased
+10003879,Product quality issue
+10003879,Product quality issue
+10003879,Product quality issue
+10003880,Impaired healing
+10003880,Calciphylaxis
+10003880,Diabetic complication
+10003880,Wound
+10003881,Pancreatitis acute
+10003882,Death
+10003883,Incorrect route of drug administration
+10003884,Gastrointestinal haemorrhage
+10003884,Pneumonia
+10003884,Pulmonary oedema
+10003884,Failure to thrive
+10003884,Hypophagia
+10003885,Ammonia increased
+10003886,Coeliac disease
+10003887,Surgery
+10003887,Muscular weakness
+10003887,Alopecia
+10003887,Drug dose omission
+10003888,Cautery to nose
+10003888,Epistaxis
+10003889,Type 2 diabetes mellitus
+10003890,Neoplasm malignant
+10003890,Pain in extremity
+10003890,Anaemia
+10003890,Death
+10003890,Histiocytosis haematophagic
+10003891,Drug ineffective
+10003892,Fatigue
+10003893,Type 2 diabetes mellitus
+10003894,Ventricular tachycardia
+10003895,Pain
+10003895,Anaemia
+10003896,Melaena
+10003896,Asthenia
+10003896,Vertigo
+10003896,Duodenal ulcer
+10003896,Gastritis erosive
+10003896,Gastrointestinal haemorrhage
+10003897,Type 2 diabetes mellitus
+10003898,Mood altered
+10003899,Flatulence
+10003899,Abdominal distension
+10003899,Diarrhoea
+10003900,Haemorrhage
+10003900,Red blood cell count decreased
+10003900,Fatigue
+10003900,Adverse event
+10003901,Type 2 diabetes mellitus
+10003902,Memory impairment
+10003903,Dizziness
+10003903,Platelet count decreased
+10003903,Blood urine present
+10003903,Mass
+10003903,Vomiting
+10003903,Feeling hot
+10003903,Contusion
+10003904,Psychotic behaviour
+10003904,Cognitive disorder
+10003905,Bronchopulmonary aspergillosis
+10003905,Myalgia
+10003906,Type 2 diabetes mellitus
+10003907,Vaginal haemorrhage
+10003907,Smear cervix abnormal
+10003908,Hospice care
+10003909,Febrile convulsion
+10003909,Helicobacter infection
+10003910,Death
+10003911,Drug ineffective
+10003911,Somnolence
+10003912,Overdose
+10003913,Sinus disorder
+10003913,Sensitivity of teeth
+10003914,Nephrogenic systemic fibrosis
+10003915,Weight increased
+10003916,Circulatory collapse
+10003916,Pneumonia aspiration
+10003916,White blood cell count increased
+10003916,Neutrophil count increased
+10003916,Platelet count decreased
+10003917,Blood lactate dehydrogenase increased
+10003917,White blood cell count increased
+10003917,Epistaxis
+10003917,Headache
+10003917,Influenza
+10003917,Nausea
+10003917,Contusion
+10003917,Wound haemorrhage
+10003917,Blood smear test abnormal
+10003917,Fatigue
+10003917,Adverse drug reaction
+10003917,Disease progression
+10003918,Drug ineffective
+10003919,Leukopenia
+10003919,Thrombocytopenia
+10003920,Type 2 diabetes mellitus
+10003920,Visual impairment
+10003920,Neuropathy peripheral
+10003921,Overdose
+10003922,Headache
+10003922,Drug effect incomplete
+10003923,Increased appetite
+10003923,Incontinence
+10003923,Off label use
+10003923,Epistaxis
+10003923,Blindness
+10003923,Weight increased
+10003923,Skin cancer
+10003923,Nasopharyngitis
+10003923,Dizziness
+10003923,Dry eye
+10003923,Wrong technique in product usage process
+10003923,Pruritus
+10003923,Increased tendency to bruise
+10003923,Diarrhoea
+10003923,Constipation
+10003924,Type 2 diabetes mellitus
+10003925,Overdose
+10003926,Apparent death
+10003926,General physical health deterioration
+10003926,Skin burning sensation
+10003926,Decreased appetite
+10003926,Weight decreased
+10003927,Headache
+10003927,Nausea
+10003927,Pyrexia
+10003927,Rash
+10003927,Myalgia
+10003927,Muscular weakness
+10003927,Gait disturbance
+10003927,Tremor
+10003928,Type 2 diabetes mellitus
+10003929,Somnolence
+10003929,Condition aggravated
+10003929,Drug effect decreased
+10003930,Peripheral swelling
+10003930,Increased appetite
+10003930,Weight increased
+10003930,Stress
+10003931,Frustration
+10003931,Anger
+10003931,Drug level decreased
+10003931,Feeling abnormal
+10003931,Malaise
+10003931,Insomnia
+10003931,Drug dose omission
+10003931,Unevaluable event
+10003931,Agitation
+10003931,Unevaluable event
+10003931,Dizziness
+10003931,Frustration
+10003931,Off label use
+10003931,Anger
+10003931,Fatigue
+10003931,Eating disorder
+10003931,Anxiety
+10003932,Memory impairment
+10003932,Drug dose omission
+10003933,Type 2 diabetes mellitus
+10003934,Inappropriate schedule of drug administration
+10003935,Hypokinesia
+10003935,Dehydration
+10003935,Drug dose omission
+10003935,Paralysis
+10003935,Quality of life decreased
+10003935,Speech disorder
+10003935,Loss of consciousness
+10003935,Withdrawal syndrome
+10003935,Dyskinesia
+10003935,Dysphagia
+10003936,Irritability
+10003937,Nasopharyngitis
+10003937,Productive cough
+10003937,Chronic sinusitis
+10003938,Cardiac arrest
+10003938,Anaphylactic reaction
+10003939,Tremor
+10003939,Head titubation
+10003940,Therapeutic response unexpected
+10003941,Interstitial lung disease
+10003941,Dyspnoea
+10003941,General physical health deterioration
+10003941,Pleural effusion
+10003941,Oedema
+10003941,Aphthous stomatitis
+10003942,Disorientation
+10003942,Phobia
+10003942,Feeling jittery
+10003942,Feeling hot
+10003942,Feeling jittery
+10003942,Phobia
+10003942,Insomnia
+10003942,Agitation
+10003942,Anxiety
+10003942,Insomnia
+10003942,Anxiety
+10003942,Mania
+10003942,Pain
+10003942,Nervousness
+10003942,Irritability
+10003942,Drug ineffective
+10003942,Product quality issue
+10003943,Peritonitis
+10003943,Device malfunction
+10003944,Cerebrovascular accident
+10003944,Blindness unilateral
+10003945,Amylase increased
+10003945,Lipase increased
+10003946,Mucosal inflammation
+10003947,Gingivitis
+10003947,Gingival erythema
+10003947,Gingival inflammation
+10003947,Gingival bleeding
+10003947,Gingival pain
+10003947,Gingival hyperplasia
+10003948,Convulsion
+10003949,Gastrointestinal stromal tumour
+10003949,Malaise
+10003949,Hepatic neoplasm
+10003949,Wrong technique in drug usage process
+10003950,Pancreatitis
+10003951,Drug ineffective
+10003952,Endometriosis
+10003952,Uterine leiomyoma
+10003952,Type 2 diabetes mellitus
+10003952,Central nervous system lesion
+10003952,Injection site pain
+10003952,Injection site bruising
+10003952,Wrong technique in drug usage process
+10003953,Headache
+10003954,Feeling cold
+10003954,White blood cell count decreased
+10003954,Dizziness
+10003955,Hepatocellular injury
+10003955,Cholestasis
+10003955,Pyrexia
+10003956,Myocardial infarction
+10003957,Drug prescribing error
+10003957,Drug dispensing error
+10003958,Kaposi^s sarcoma
+10003959,Splenomegaly
+10003959,Dyspnoea
+10003959,Insomnia
+10003960,Gastrointestinal obstruction
+10003960,Anaemia
+10003960,General physical health deterioration
+10003961,Medication residue present
+10003962,Overdose
+10003963,Nausea
+10003963,Vomiting
+10003963,Diarrhoea
+10003964,Neutrophil count decreased
+10003965,Tinnitus
+10003965,Palpitations
+10003966,Abnormal behaviour
+10003966,Drug level increased
+10003966,Lethargy
+10003966,Irritability
+10003966,Obsessive-compulsive disorder
+10003966,Dermatillomania
+10003966,Activities of daily living impaired
+10003966,Memory impairment
+10003966,Bradykinesia
+10003966,Muscular weakness
+10003966,Insomnia
+10003966,Drug interaction
+10003967,Death
+10003968,Feeling abnormal
+10003969,Overdose
+10003970,Breast cancer
+10003970,Second primary malignancy
+10003970,Metastases to pleura
+10003970,Metastases to lymph nodes
+10003971,Fatigue
+10003972,Blood glucose increased
+10003973,Blood glucose increased
+10003973,Blood cholesterol increased
+10003973,Alopecia
+10003973,Insomnia
+10003973,Weight increased
+10003974,Death
+10003975,Death
+10003976,Hypomagnesaemia
+10003976,Drug interaction
+10003977,Transfusion
+10003977,Drug dose omission
+10003978,Body height below normal
+10003978,Congenital oral malformation
+10003978,Congenital cardiovascular anomaly
+10003978,Congenital nose malformation
+10003978,Tooth development disorder
+10003978,Visual impairment
+10003978,Foetal exposure during pregnancy
+10003978,Paternal drugs affecting foetus
+10003978,Corrective lens user
+10003978,Dysmorphism
+10003978,Foetal anticonvulsant syndrome
+10003978,Premature baby
+10003978,Toothache
+10003978,Growth retardation
+10003978,Congenital cardiovascular anomaly
+10003978,Cardiac murmur
+10003978,Congenital hand malformation
+10003978,Multiple injuries
+10003978,Low birth weight baby
+10003979,Extrasystoles
+10003980,Drug ineffective
+10003981,Coma
+10003981,Malaise
+10003982,Muscle abscess
+10003982,Diarrhoea
+10003982,Headache
+10003982,Platelet count decreased
+10003982,Gout
+10003983,Weight increased
+10003983,Joint swelling
+10003983,Mania
+10003983,Thinking abnormal
+10003983,Sleep disorder
+10003983,Joint swelling
+10003983,Drug interaction
+10003984,Stent placement
+10003984,Obstruction
+10003985,Asthenia
+10003985,Cold sweat
+10003985,Nausea
+10003985,Palpitations
+10003986,Drug intolerance
+10003986,Medication error
+10003987,Neuralgia
+10003988,Anxiety
+10003988,Insomnia
+10003988,Nervousness
+10003988,Drug withdrawal syndrome
+10003988,Drug ineffective
+10003988,Feeling abnormal
+10003989,Headache
+10003989,Pharyngitis
+10003990,Myocardial infarction
+10003991,Drug prescribing error
+10003992,Diarrhoea
+10003992,Dyspepsia
+10003992,Nausea
+10003992,Headache
+10003993,Metastases to bone
+10003993,Osteonecrosis of jaw
+10003994,Convulsion
+10003994,Tongue injury
+10003994,Hallucination
+10003994,Anticonvulsant drug level below therapeutic
+10003994,Injury
+10003995,Dyspnoea
+10003996,Appendix disorder
+10003997,Haemorrhage
+10003997,Joint swelling
+10003997,Adverse event
+10003997,Dyspnoea
+10003997,Chest discomfort
+10003997,Blood count abnormal
+10003998,Feeling abnormal
+10003998,Pneumonia
+10003998,Suicidal ideation
+10003998,Psychotic disorder
+10003998,Unevaluable event
+10003998,Unevaluable event
+10003998,Malaise
+10003998,Drug level increased
+10003998,Asthenia
+10003998,Apathy
+10003998,Pain
+10003999,Joint dislocation
+10004000,Scab
+10004001,Adverse reaction
+10004002,Stomatitis
+10004003,Injection site rash
+10004003,White blood cell count decreased
+10004003,Rash erythematous
+10004004,Epilepsy
+10004004,Mood altered
+10004004,Stomatitis
+10004005,Nasopharyngitis
+10004005,Nasal congestion
+10004006,Nausea
+10004006,Vomiting
+10004006,Abdominal pain upper
+10004006,Fatigue
+10004006,Haemoglobin decreased
+10004007,Cardiac disorder
+10004008,Hypothyroidism
+10004008,Night sweats
+10004008,Fatigue
+10004008,Blood count abnormal
+10004009,Infection
+10004010,Tooth loss
+10004010,Teeth brittle
+10004010,Tooth disorder
+10004010,Tooth fracture
+10004011,Investigation
+10004012,Pulmonary congestion
+10004012,Ear congestion
+10004013,Foot deformity
+10004014,Dyspnoea
+10004014,Tachycardia
+10004014,White blood cell count increased
+10004015,Medication residue present
+10004016,Testicular torsion
+10004017,Epistaxis
+10004018,Anaphylactic reaction
+10004018,Metrorrhagia
+10004018,Dizziness
+10004019,Multiple sclerosis relapse
+10004019,Dysaesthesia
+10004020,Tremor
+10004021,Nephrogenic systemic fibrosis
+10004022,Pain in jaw
+10004022,Pyrexia
+10004022,Flatulence
+10004022,Diarrhoea
+10004023,White blood cell count increased
+10004024,Death
+10004025,Bronchial carcinoma
+10004026,Pneumonitis
+10004026,Pleural effusion
+10004026,Radiation pneumonitis
+10004026,Oesophagitis
+10004026,Pericarditis
+10004027,Death
+10004027,Thrombosis
+10004027,Crohn^s disease
+10004027,Underdose
+10004028,Muscle spasms
+10004028,Pain in extremity
+10004028,Polycythaemia
+10004029,Embedded device
+10004029,Device breakage
+10004029,Back pain
+10004030,Drug dose omission
+10004031,Pneumonia
+10004031,Cytomegalovirus infection
+10004031,Cystitis haemorrhagic
+10004031,Acute graft versus host disease
+10004032,Memory impairment
+10004032,Drug dose omission
+10004033,Death
+10004034,Hospice care
+10004035,Malaise
+10004035,Night sweats
+10004035,Abdominal pain
+10004035,Disease progression
+10004035,No therapeutic response
+10004036,Muscle spasms
+10004036,Urinary incontinence
+10004036,Anxiety
+10004036,Hyperventilation
+10004036,Rash pruritic
+10004036,Rhinorrhoea
+10004036,Tongue disorder
+10004036,Panic attack
+10004036,Diarrhoea
+10004036,Dry skin
+10004036,Skin exfoliation
+10004036,Skin exfoliation
+10004036,Acne
+10004036,Alopecia
+10004037,Chills
+10004037,Myalgia
+10004037,Headache
+10004037,Dizziness
+10004037,Nausea
+10004037,Myalgia
+10004037,Chills
+10004038,Bronchospasm
+10004038,Discomfort
+10004038,Rash
+10004038,Drug hypersensitivity
+10004039,Drug ineffective
+10004040,Device breakage
+10004040,No adverse event
+10004041,Amnesia
+10004042,Pain
+10004042,Pruritus
+10004042,Dizziness
+10004042,Pyrexia
+10004042,Asthenia
+10004042,Nausea
+10004043,Aortic dissection
+10004044,Overdose
+10004044,Accidental exposure to product by child
+10004045,Rash
+10004045,Discomfort
+10004045,Constipation
+10004045,Skin disorder
+10004045,Skin sensitisation
+10004045,Blister
+10004045,Jaundice
+10004046,Death
+10004047,Drug dose omission
+10004047,Product packaging quantity issue
+10004047,No adverse event
+10004048,Feeling abnormal
+10004048,Somnolence
+10004048,Drug effect decreased
+10004049,Thermal burn
+10004050,Death
+10004051,Pain
+10004051,Dizziness
+10004051,Headache
+10004052,Hypoaesthesia
+10004052,Tremor
+10004052,Feeling hot
+10004052,Hyperhidrosis
+10004052,Mobility decreased
+10004052,Asthenia
+10004052,Local swelling
+10004053,Fat redistribution
+10004053,Lipodystrophy acquired
+10004053,CD4 lymphocytes decreased
+10004053,Unevaluable event
+10004053,Multifocal motor neuropathy
+10004053,Muscle atrophy
+10004055,Blood count abnormal
+10004056,Exposure during pregnancy
+10004056,Drug ineffective
+10004056,Caesarean section
+10004057,Malaise
+10004057,Nausea
+10004057,Haemoglobin decreased
+10004057,Headache
+10004058,Abortion spontaneous
+10004059,Blood fibrinogen decreased
+10004060,Pulmonary embolism
+10004060,General physical health deterioration
+10004060,Pain
+10004060,Injury
+10004060,Abdominal pain
+10004061,Platelet count decreased
+10004062,Dermatitis contact
+10004062,Application site pruritus
+10004062,Application site erythema
+10004063,Irritability
+10004063,Insomnia
+10004063,Abnormal behaviour
+10004064,Anxiety
+10004064,General physical health deterioration
+10004064,Injury
+10004064,Thrombosis
+10004064,Emotional distress
+10004064,Pain
+10004064,Abdominal pain
+10004065,Ileectomy
+10004066,Diabetes mellitus
+10004066,Urinary tract infection
+10004067,Anxiety
+10004067,General physical health deterioration
+10004067,Axillary vein thrombosis
+10004067,Pain
+10004067,Peripheral swelling
+10004067,Deep vein thrombosis
+10004067,Abdominal pain
+10004067,Emotional distress
+10004067,Injury
+10004067,Subclavian vein thrombosis
+10004068,Foetal heart rate decreased
+10004068,Foetal exposure during pregnancy
+10004068,Foetal heart rate increased
+10004069,Off label use
+10004070,Device breakage
+10004070,No adverse event
+10004071,Overdose
+10004072,Nephrogenic systemic fibrosis
+10004073,Vertigo
+10004073,Erythema
+10004074,Accidental overdose
+10004075,Tooth disorder
+10004075,Colitis ulcerative
+10004076,Drug dose omission
+10004077,Eye pain
+10004077,Ocular vascular disorder
+10004077,Retinal vascular disorder
+10004078,Deafness
+10004078,Ear injury
+10004079,Renal impairment
+10004080,Intestinal haemorrhage
+10004080,Diarrhoea
+10004080,Drug ineffective
+10004081,Ocular hyperaemia
+10004081,Eye pain
+10004081,Dry eye
+10004081,Chest discomfort
+10004082,Wrist fracture
+10004082,Fall
+10004082,Hysterectomy
+10004082,Muscular weakness
+10004082,Skin discolouration
+10004082,Gait disturbance
+10004083,Hypotension
+10004084,Convulsion
+10004085,Lower gastrointestinal haemorrhage
+10004086,Renal failure
+10004087,Drug ineffective
+10004088,Pulmonary alveolar haemorrhage
+10004088,Graft versus host disease
+10004088,Cystitis haemorrhagic
+10004088,Adenovirus infection
+10004088,BK virus infection
+10004089,Convulsion
+10004089,Alcohol detoxification
+10004089,Loss of consciousness
+10004089,Alcohol withdrawal syndrome
+10004089,Renal failure acute
+10004089,Dehydration
+10004089,Joint injury
+10004089,Tongue injury
+10004089,Swollen tongue
+10004089,Electrolyte imbalance
+10004089,Dysarthria
+10004089,Fall
+10004089,Laceration
+10004089,Gait disturbance
+10004089,Headache
+10004089,Drug ineffective
+10004090,Pancreatitis acute
+10004090,Blood glucose increased
+10004091,Bone marrow failure
+10004091,Pyrexia
+10004091,Neutropenia
+10004091,Leukopenia
+10004091,Thrombocytopenia
+10004091,Pancytopenia
+10004091,Tonsillitis
+10004091,Cough
+10004091,Tonsillar hypertrophy
+10004091,Purulent discharge
+10004091,Pharyngeal erythema
+10004091,Odynophagia
+10004091,Lymphadenopathy
+10004091,Productive cough
+10004092,Large intestine polyp
+10004092,Diarrhoea
+10004092,Blood potassium increased
+10004093,Hyperthermia malignant
+10004094,Abasia
+10004095,Death
+10004095,Cerebrovascular accident
+10004095,Cerebral haemorrhage
+10004095,Drooling
+10004096,Haematochezia
+10004096,Diverticulum
+10004097,Incorrect dose administered
+10004097,Product physical issue
+10004098,Paraesthesia
+10004098,Asthenia
+10004098,Back pain
+10004098,Dyspepsia
+10004098,Constipation
+10004098,Renal function test abnormal
+10004098,Pruritus
+10004098,Throat irritation
+10004098,Diarrhoea
+10004098,Nasal discomfort
+10004098,Malaise
+10004098,Multiple sclerosis relapse
+10004098,Urinary tract infection
+10004098,Dizziness
+10004098,Headache
+10004098,Nausea
+10004099,Cerebrovascular accident
+10004100,Death
+10004101,Rash
+10004102,Blood alkaline phosphatase increased
+10004102,Transaminases increased
+10004102,Gamma-glutamyltransferase increased
+10004103,Electrocardiogram abnormal
+10004103,Left ventricular dysfunction
+10004103,Sinus tachycardia
+10004104,Nephrogenic systemic fibrosis
+10004105,Foetal cardiac disorder
+10004105,Off label use
+10004105,Exposure during pregnancy
+10004106,Eye haemorrhage
+10004107,Menorrhagia
+10004108,Dysphonia
+10004109,Ocular hyperaemia
+10004109,Lacrimation increased
+10004109,Dry eye
+10004110,Skin lesion
+10004110,Lymphadenopathy
+10004110,Lymph node pain
+10004110,Basal cell carcinoma
+10004110,Seborrhoeic keratosis
+10004110,Fall
+10004111,Rash
+10004111,Headache
+10004112,Uterine perforation
+10004112,Injury
+10004112,Pain
+10004112,Emotional distress
+10004113,Type 2 diabetes mellitus
+10004114,Oral mucosal erythema
+10004114,Oral pain
+10004114,Abdominal tenderness
+10004115,Somnolence
+10004115,Drug ineffective
+10004116,Thrombocytopenia
+10004116,Petechiae
+10004117,Suicidal ideation
+10004117,Depressed mood
+10004117,Nightmare
+10004118,Haemoglobin decreased
+10004119,Drug ineffective
+10004120,Acute myocardial infarction
+10004121,Malignant neoplasm progression
+10004121,General physical health deterioration
+10004122,Death
+10004123,Alanine aminotransferase increased
+10004123,Aspartate aminotransferase increased
+10004123,Fatigue
+10004123,Abdominal pain upper
+10004123,Injection site discolouration
+10004123,Injection site pruritus
+10004123,Unevaluable event
+10004124,Device difficult to use
+10004124,Product quality issue
+10004125,Dizziness
+10004125,Hypoaesthesia
+10004126,Blepharospasm
+10004126,Aggression
+10004126,Anger
+10004126,Violence-related symptom
+10004126,Suicidal ideation
+10004127,Uterine perforation
+10004127,Device dislocation
+10004128,Device expulsion
+10004129,Infusion site erythema
+10004129,Chills
+10004130,Laboratory test abnormal
+10004130,Contusion
+10004130,Drug dose omission
+10004130,Platelet count increased
+10004130,Hypertension
+10004130,Treatment noncompliance
+10004130,Eye disorder
+10004130,White blood cell count increased
+10004130,Pain
+10004131,Emotional distress
+10004131,Pain
+10004131,Embedded device
+10004131,Injury
+10004132,Platelet count decreased
+10004132,Pyrexia
+10004132,Prostatic specific antigen increased
+10004132,Bone pain
+10004133,Respiratory arrest
+10004133,Pleural effusion
+10004134,Uterine perforation
+10004134,Injury
+10004134,Pain
+10004134,Emotional distress
+10004135,Drug eruption
+10004136,Oropharyngeal spasm
+10004136,Respiratory disorder
+10004136,Dysphagia
+10004136,Psychomotor hyperactivity
+10004136,Salivary hypersecretion
+10004136,Dysarthria
+10004136,Sensation of foreign body
+10004137,Melaena
+10004138,Pneumonia
+10004138,Anaemia
+10004139,Type 2 diabetes mellitus
+10004140,Nausea
+10004140,Drug administration error
+10004141,Hepatic lesion
+10004141,Malignant neoplasm progression
+10004141,Gastric cancer
+10004141,Product use issue
+10004142,Seizure like phenomena
+10004142,Myoclonus
+10004143,Type 2 diabetes mellitus
+10004144,Flatulence
+10004145,Overdose
+10004146,Type 2 diabetes mellitus
+10004147,Drug dose omission
+10004147,Blood count abnormal
+10004148,Rash pruritic
+10004148,Generalised erythema
+10004149,Type 2 diabetes mellitus
+10004150,Uterine perforation
+10004150,Injury
+10004150,Pain
+10004150,Emotional distress
+10004151,Therapeutic response unexpected
+10004152,Urticaria
+10004152,Erythema
+10004152,Pruritus
+10004152,Drug interaction
+10004153,Hip fracture
+10004153,Fall
+10004153,Urinary tract infection
+10004154,Type 2 diabetes mellitus
+10004155,Death
+10004156,Device dislocation
+10004157,Menstruation irregular
+10004158,Type 2 diabetes mellitus
+10004159,Bronchitis
+10004160,Device expulsion
+10004161,Menstruation delayed
+10004162,Fatigue
+10004162,Stomatitis
+10004162,Haemoglobin decreased
+10004162,Platelet count decreased
+10004162,Weight increased
+10004163,Decreased appetite
+10004163,Depression
+10004164,Type 2 diabetes mellitus
+10004165,Toothache
+10004166,Cough
+10004167,Uterine perforation
+10004167,Injury
+10004167,Pain
+10004167,Emotional distress
+10004168,Dysgeusia
+10004168,Dry mouth
+10004168,Dysphagia
+10004168,Peripheral sensory neuropathy
+10004168,Alopecia
+10004168,Constipation
+10004168,Oedema
+10004168,Hypersensitivity
+10004168,Stomatitis
+10004168,Diarrhoea
+10004168,Decreased appetite
+10004168,Skin fissures
+10004168,Nausea
+10004168,Dermatitis acneiform
+10004168,Skin reaction
+10004168,Vomiting
+10004168,Radiation skin injury
+10004169,Influenza like illness
+10004169,Local swelling
+10004170,Transient ischaemic attack
+10004171,Unevaluable event
+10004172,Traumatic haematoma
+10004173,Uterine perforation
+10004173,Injury
+10004173,Pain
+10004173,Emotional distress
+10004173,Psychological trauma
+10004174,Menorrhagia
+10004174,Medical device complication
+10004175,Skin discolouration
+10004175,Rash
+10004176,Death
+10004177,Malaise
+10004177,Insomnia
+10004177,Fatigue
+10004177,Asthenia
+10004178,Neoplasm progression
+10004179,Platelet count increased
+10004179,Abdominal discomfort
+10004179,Hypoaesthesia
+10004179,Paraesthesia
+10004179,Nausea
+10004179,Headache
+10004179,Dizziness
+10004179,Contusion
+10004179,Ecchymosis
+10004180,Overdose
+10004180,Dyspnoea
+10004180,Lung infection
+10004181,Nasal congestion
+10004182,Inappropriate schedule of drug administration
+10004183,Weight loss poor
+10004184,Pain
+10004184,Insomnia
+10004185,Overdose
+10004186,Thrombotic microangiopathy
+10004186,Renal impairment
+10004186,Hepatic failure
+10004186,Mental status changes
+10004186,Stem cell transplant
+10004186,Graft versus host disease
+10004186,Fatigue
+10004186,Drug administration error
+10004187,Overdose
+10004188,Cognitive disorder
+10004188,Anxiety
+10004188,Depression
+10004188,Sexual dysfunction
+10004188,Blood testosterone free decreased
+10004188,Tri-iodothyronine uptake increased
+10004188,Back pain
+10004188,Type 2 diabetes mellitus
+10004188,Hepatitis C
+10004188,Insomnia
+10004188,Blood cholesterol increased
+10004188,Benign prostatic hyperplasia
+10004188,Urinary tract obstruction
+10004188,Drug dependence
+10004188,Erectile dysfunction
+10004189,Heart rate increased
+10004190,Overdose
+10004191,Vitreous floaters
+10004191,Contusion
+10004191,Weight increased
+10004191,Headache
+10004192,Muscle spasms
+10004192,Oedema peripheral
+10004193,Increased bronchial secretion
+10004194,No adverse event
+10004194,Bone marrow transplant
+10004195,Abdominal pain upper
+10004195,Diarrhoea
+10004195,Vomiting
+10004196,Infusion related reaction
+10004196,Generalised erythema
+10004196,Pruritus
+10004196,Macroglossia
+10004196,Dyspnoea
+10004197,Migraine
+10004198,Platelet count abnormal
+10004198,Platelet count decreased
+10004198,Haemoglobin decreased
+10004199,Malaise
+10004199,Menstruation irregular
+10004200,Fall
+10004200,Injury
+10004201,Vomiting
+10004201,Nausea
+10004201,Menstruation irregular
+10004202,Blister
+10004202,Hyperhidrosis
+10004202,Skin irritation
+10004202,Anaemia
+10004203,Malignant neoplasm progression
+10004203,Pancytopenia
+10004204,Neurogenic bladder
+10004204,Feeling abnormal
+10004204,Balance disorder
+10004204,Nervousness
+10004204,Frustration
+10004204,Hypoaesthesia
+10004204,Dyspnoea
+10004205,Overdose
+10004206,Unevaluable event
+10004206,Infection
+10004207,Pregnancy
+10004208,Off label use
+10004208,Stevens-Johnson syndrome
+10004208,Consciousness fluctuating
+10004208,Lip swelling
+10004208,Lip discolouration
+10004208,Blister
+10004208,Pain
+10004208,Skin exfoliation
+10004208,Chapped lips
+10004208,Eye disorder
+10004208,Scab
+10004208,Scar
+10004208,Weight decreased
+10004208,Skin disorder
+10004208,Rash generalised
+10004208,Dyspnoea
+10004208,Hypersensitivity
+10004208,Malaise
+10004209,Syncope
+10004209,Drug dose omission
+10004209,Drug ineffective
+10004209,Product quality issue
+10004209,Expired drug administered
+10004210,Syncope
+10004210,Fall
+10004210,Cough
+10004210,Bronchitis
+10004210,Head injury
+10004211,Spinal disorder
+10004211,Dizziness
+10004211,Feeling abnormal
+10004212,Overdose
+10004213,Ovarian germ cell cancer stage II
+10004213,Amenorrhoea
+10004213,Weight increased
+10004213,Tremor
+10004213,Galactorrhoea
+10004213,Dyspnoea
+10004213,Blood prolactin increased
+10004213,Palpitations
+10004213,Dyskinesia
+10004213,Dysuria
+10004213,Swelling
+10004213,Muscle spasms
+10004213,Breast enlargement
+10004213,Fatigue
+10004213,Muscular weakness
+10004213,Agitation
+10004213,Aggression
+10004213,Hyperhidrosis
+10004213,Abdominal pain
+10004214,Urinary tract infection
+10004215,Overdose
+10004216,Overdose
+10004217,Femoral neck fracture
+10004217,Osteoarthritis
+10004217,Drug ineffective
+10004218,Overdose
+10004219,Influenza
+10004220,Overdose
+10004221,Chest pain
+10004221,Palpitations
+10004221,Drug ineffective
+10004222,Wrong technique in drug usage process
+10004223,Death
+10004224,Drug dose omission
+10004224,Product adhesion issue
+10004225,Headache
+10004226,Malignant neoplasm progression
+10004227,Glaucoma
+10004227,Cataract
+10004227,Vitamin D decreased
+10004227,Arthropathy
+10004228,Syncope
+10004228,Electrocardiogram QT prolonged
+10004229,Pain in extremity
+10004230,Drug effect incomplete
+10004230,Frustration
+10004230,Weight increased
+10004231,Renal failure acute
+10004231,Rhabdomyolysis
+10004231,Traumatic liver injury
+10004231,Pneumonia aspiration
+10004231,Intentional overdose
+10004231,Suicide attempt
+10004231,Loss of consciousness
+10004231,Diarrhoea
+10004231,Vomiting
+10004231,Nausea
+10004231,Restlessness
+10004232,Haemorrhage
+10004232,Haemarthrosis
+10004233,Embolism arterial
+10004233,Pulmonary embolism
+10004233,Phlebitis
+10004234,Skin necrosis
+10004235,Adhesion
+10004236,Vasculitis
+10004237,Nasopharyngitis
+10004237,Respiratory tract congestion
+10004237,Productive cough
+10004238,Alopecia
+10004239,Death
+10004239,Pain
+10004240,Vomiting
+10004241,"Hallucination, auditory"
+10004241,Nervousness
+10004241,Feeling abnormal
+10004242,Headache
+10004243,Drug ineffective
+10004244,Major depression
+10004244,Hemiparesis
+10004244,Quadriplegia
+10004244,Multiple sclerosis
+10004246,Vomiting
+10004246,Abdominal discomfort
+10004247,Malaise
+10004247,Pulmonary function test decreased
+10004247,Chest discomfort
+10004248,Fear of death
+10004248,Depression
+10004249,Hypertension
+10004249,Sinus tachycardia
+10004249,Dizziness
+10004249,Asthenia
+10004250,Oedema peripheral
+10004251,Alopecia
+10004251,Rash papular
+10004251,Contusion
+10004252,Limb traumatic amputation
+10004252,Road traffic accident
+10004252,Pain
+10004253,Diarrhoea
+10004254,Drug ineffective
+10004255,Hospice care
+10004256,Back pain
+10004256,Nerve compression
+10004256,Joint swelling
+10004256,Abasia
+10004256,Fall
+10004256,Ligament sprain
+10004256,Foot fracture
+10004257,Hypotension
+10004258,Abnormal dreams
+10004259,Diarrhoea
+10004259,Rhinorrhoea
+10004260,Breast cancer
+10004261,Paraesthesia
+10004261,Dizziness
+10004261,Oedema peripheral
+10004261,Insomnia
+10004262,Dry mouth
+10004262,Dry eye
+10004263,Erythema
+10004263,Pruritus
+10004264,Nasal dryness
+10004265,Activities of daily living impaired
+10004266,Dyspnoea exertional
+10004267,Feeling abnormal
+10004267,Drug ineffective
+10004269,Hepatic enzyme increased
+10004270,Oedema peripheral
+10004270,Joint swelling
+10004271,Abdominal pain
+10004271,Muscle spasms
+10004271,Splenectomy
+10004271,Splenomegaly
+10004271,Packed red blood cell transfusion
+10004271,Post procedural haemorrhage
+10004271,Cold agglutinins
+10004271,Pyrexia
+10004271,White blood cell count decreased
+10004271,Haematocrit decreased
+10004271,Bronchitis
+10004271,Disease progression
+10004271,Pseudolymphoma
+10004271,Drug ineffective
+10004271,Haemoglobinuria
+10004271,Night sweats
+10004271,Weight increased
+10004271,Fatigue
+10004271,Cough
+10004272,Oedema peripheral
+10004272,Adverse reaction
+10004273,Dizziness
+10004273,Heart rate increased
+10004273,Musculoskeletal pain
+10004273,Pain in extremity
+10004273,Chest discomfort
+10004274,Myelodysplastic syndrome
+10004274,Diarrhoea
+10004275,Headache
+10004275,Intra-uterine contraceptive device insertion
+10004275,Palpitations
+10004276,Oral mucosal blistering
+10004276,Abdominal discomfort
+10004276,Headache
+10004277,Prostatic haemorrhage
+10004278,Platelet count decreased
+10004279,Arthralgia
+10004279,Nasal congestion
+10004279,Migraine
+10004279,Fatigue
+10004279,Fluid retention
+10004280,Swelling
+10004281,Overdose
+10004282,Hypoaesthesia
+10004283,Drug ineffective
+10004284,Oedema peripheral
+10004285,Cerebrovascular accident
+10004285,Migraine
+10004285,Presyncope
+10004285,Syncope
+10004286,Lung transplant
+10004287,Dizziness
+10004287,Drug effect incomplete
+10004287,Activities of daily living impaired
+10004287,Drug intolerance
+10004288,Bronchiolitis
+10004288,Apnoea
+10004288,Cyanosis
+10004288,Rhinorrhoea
+10004288,Umbilical hernia
+10004288,Inguinal hernia
+10004288,Oedema genital
+10004289,Headache
+10004290,Ligament sprain
+10004290,Fall
+10004291,Dizziness
+10004292,Subarachnoid haemorrhage
+10004293,Influenza like illness
+10004293,Dysphagia
+10004293,Dyspnoea
+10004293,Immune thrombocytopenic purpura
+10004293,Haemoglobinuria
+10004293,Pain
+10004293,Nausea
+10004293,Chills
+10004293,Jaundice
+10004293,Hypotension
+10004293,Fatigue
+10004294,Palpitations
+10004294,Back pain
+10004294,Oedema
+10004294,Chest pain
+10004295,Drug ineffective
+10004295,Dizziness
+10004296,Dyspnoea
+10004296,Oedema peripheral
+10004296,Right ventricular failure
+10004297,Haemoglobin decreased
+10004297,Dialysis
+10004297,Haemoglobinuria
+10004297,Fatigue
+10004298,Pruritus
+10004298,Dry mouth
+10004298,Headache
+10004298,Decreased appetite
+10004298,Dizziness
+10004298,Dyspnoea
+10004299,Dizziness
+10004299,Nausea
+10004299,Activities of daily living impaired
+10004299,Dizziness
+10004299,Wrong technique in drug usage process
+10004300,Hypoaesthesia
+10004300,Anaemia
+10004301,Muscle disorder
+10004301,Pain in extremity
+10004301,Dizziness
+10004301,Asthenia
+10004302,Renal impairment
+10004302,Hyperkalaemia
+10004302,Iron deficiency anaemia
+10004302,Chronic gastritis
+10004303,Drug ineffective
+10004304,Central nervous system lesion
+10004305,Diarrhoea

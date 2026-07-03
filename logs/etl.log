@@ -1,0 +1,119 @@
+2026-06-27 11:53:47,336 | INFO | Starting signal prioritization.
+2026-06-27 11:56:55,425 | INFO | Starting feature engineering.
+2026-06-27 12:23:11,731 | INFO | Starting OpenFDA data ingestion process.
+2026-06-27 12:23:11,732 | INFO | Fetching 1000 records from OpenFDA API.
+2026-06-27 12:23:23,163 | INFO | API request successful with status code 200.
+2026-06-27 12:23:23,642 | INFO | Saved 1000 records to data\raw\adverse_events.csv
+2026-06-27 12:23:23,642 | INFO | OpenFDA data ingestion process finished.
+2026-06-27 12:23:46,464 | INFO | Starting silver transformation for drug safety data.
+2026-06-27 12:23:46,620 | INFO | Read 1000 rows from data/raw/adverse_events.csv.
+2026-06-27 12:23:47,846 | INFO | Saved 1000 rows to silver layer.
+2026-06-27 12:23:47,846 | INFO | Silver transformation finished.
+2026-06-27 12:24:30,850 | INFO | Building fact_drug_safety_events table.
+2026-06-27 12:24:30,852 | INFO | Standardized drug names.
+2026-06-27 12:24:30,862 | INFO | Processed event dates.
+2026-06-27 12:24:30,872 | INFO | Saved fact table with 1000 rows to gold layer.
+2026-06-27 12:24:30,873 | WARNING | Missing Drug Keys: 0
+2026-06-27 12:24:30,873 | INFO | Finished building fact_drug_safety_events.
+2026-06-27 12:24:39,955 | INFO | Building fact_event_reaction table.
+2026-06-27 12:24:39,988 | INFO | Merged event reactions with dimension to get reaction keys.
+2026-06-27 12:24:39,991 | INFO | Fact table contains 2712 unique event-reaction pairs.
+2026-06-27 12:24:39,997 | INFO | Saved fact_event_reaction to gold layer.
+2026-06-27 12:24:39,997 | WARNING | Missing Reaction Keys: 0
+2026-06-27 12:24:48,752 | INFO | --- Starting Data Warehouse Load ---
+2026-06-27 12:24:48,959 | INFO | Successfully connected to the database. Starting ETL load process.
+2026-06-27 12:24:48,960 | INFO | Resetting all warehouse tables.
+2026-06-27 12:24:49,040 | INFO | All warehouse tables have been truncated and reset.
+2026-06-27 12:24:49,041 | INFO | Starting load for: warehouse.dim_date
+2026-06-27 12:24:49,079 | INFO | Successfully loaded 115 records into warehouse.dim_date.
+2026-06-27 12:24:49,079 | INFO | Starting load for: warehouse.dim_drug
+2026-06-27 12:24:49,117 | INFO | Successfully loaded 266 records into warehouse.dim_drug.
+2026-06-27 12:24:49,117 | INFO | Starting load for: warehouse.dim_reaction
+2026-06-27 12:24:49,119 | INFO | Loading data into warehouse.dim_reaction.
+2026-06-27 12:24:49,341 | INFO | Successfully loaded 917 records into warehouse.dim_reaction.
+2026-06-27 12:24:49,341 | INFO | Starting load for: warehouse.fact_drug_safety_events
+2026-06-27 12:24:49,549 | INFO | Successfully loaded 1000 records into warehouse.fact_drug_safety_events.
+2026-06-27 12:24:49,549 | INFO | Starting load for: warehouse.fact_event_reaction
+2026-06-27 12:24:50,133 | INFO | Successfully loaded 2712 records into warehouse.fact_event_reaction.
+2026-06-27 12:24:50,232 | INFO | ETL load process completed successfully. Transaction committed.
+2026-06-27 12:24:50,232 | INFO | Database connection closed.
+2026-06-27 12:24:50,232 | INFO | --- Data Warehouse Load Finished ---
+2026-06-27 12:25:43,418 | INFO | Starting drug risk analysis.
+2026-06-27 12:25:43,454 | INFO | Filtered drugs with fewer than 5 reports.
+2026-06-27 12:25:43,462 | INFO | Drug risk analysis finished.
+2026-06-27 12:30:14,102 | INFO | Starting drug risk analysis.
+2026-06-27 12:30:14,149 | INFO | Filtered drugs with fewer than 5 reports.
+2026-06-27 12:30:14,158 | INFO | Drug risk analysis finished.
+2026-06-27 12:34:03,193 | INFO | Starting drug risk analysis.
+2026-06-27 12:34:03,293 | INFO | Filtered drugs with fewer than 5 reports.
+2026-06-27 12:34:03,305 | INFO | Drug risk analysis finished.
+2026-06-27 12:34:55,362 | INFO | Starting drug-reaction pair analysis.
+2026-06-27 12:34:55,406 | INFO | Joined fact table with drug dimension.
+2026-06-27 12:34:55,410 | INFO | Joined with reaction data.
+2026-06-27 12:34:55,434 | INFO | Drug-reaction pair analysis finished.
+2026-06-27 12:35:20,211 | INFO | Analyzing top reactions.
+2026-06-27 12:35:20,223 | INFO | Finished analyzing top reactions.
+2026-06-27 12:35:34,816 | INFO | Starting feature engineering.
+2026-06-27 12:40:38,046 | INFO | Starting drug metrics calculation.
+2026-06-27 12:40:38,112 | INFO | Filtered drugs with fewer than 5 reports.
+2026-06-27 12:40:38,131 | INFO | Drug metrics calculation completed.
+2026-06-27 12:45:13,952 | INFO | Starting feature engineering.
+2026-06-27 12:45:45,843 | INFO | Starting signal prioritization.
+2026-06-27 12:45:45,898 | INFO | Signal prioritization completed.
+2026-06-27 12:47:15,727 | INFO | Starting feature engineering.
+2026-06-27 12:47:15,787 | INFO | Feature engineering completed successfully.
+2026-06-27 12:48:45,704 | INFO | Starting Signal Priority Engine.
+2026-06-27 12:50:35,247 | INFO | Starting Signal Priority Engine.
+2026-06-27 12:50:35,320 | INFO | Signal Priority Engine completed successfully.
+2026-06-29 19:33:28,413 | INFO | Starting OpenFDA data ingestion process.
+2026-06-29 19:33:28,414 | INFO | Fetching 1000 records from OpenFDA API.
+2026-06-29 19:33:38,557 | INFO | API request successful with status code 200.
+2026-06-29 19:33:39,078 | INFO | Saved 1000 records to data\raw\adverse_events.csv
+2026-06-29 19:33:39,079 | INFO | OpenFDA data ingestion process finished.
+2026-06-29 19:33:42,507 | INFO | Starting silver transformation for drug safety data.
+2026-06-29 19:33:42,662 | INFO | Read 1000 rows from data/raw/adverse_events.csv.
+2026-06-29 19:33:43,905 | INFO | Saved 1000 rows to silver layer.
+2026-06-29 19:33:43,905 | INFO | Silver transformation finished.
+2026-06-29 19:34:58,417 | INFO | Building fact_drug_safety_events table.
+2026-06-29 19:34:58,423 | INFO | Standardized drug names.
+2026-06-29 19:34:58,436 | INFO | Processed event dates.
+2026-06-29 19:34:58,542 | INFO | Saved fact table with 1000 rows to gold layer.
+2026-06-29 19:34:58,543 | WARNING | Missing Drug Keys: 0
+2026-06-29 19:34:58,543 | INFO | Finished building fact_drug_safety_events.
+2026-06-29 19:35:08,834 | INFO | Building fact_event_reaction table.
+2026-06-29 19:35:08,868 | INFO | Merged event reactions with dimension to get reaction keys.
+2026-06-29 19:35:08,871 | INFO | Fact table contains 2712 unique event-reaction pairs.
+2026-06-29 19:35:08,876 | INFO | Saved fact_event_reaction to gold layer.
+2026-06-29 19:35:08,877 | WARNING | Missing Reaction Keys: 0
+2026-06-29 19:35:18,496 | INFO | Starting load for: warehouse.dim_drug
+2026-06-29 19:38:22,685 | INFO | Starting load for: warehouse.dim_drug
+2026-06-29 19:38:22,736 | INFO | Cleared warehouse.dim_drug
+2026-06-29 19:38:22,785 | INFO | Successfully loaded 266 records into warehouse.dim_drug.
+2026-06-29 19:41:22,061 | INFO | Starting load for: warehouse.dim_date
+2026-06-29 19:41:22,096 | INFO | Cleared warehouse.dim_date
+2026-06-29 19:41:22,142 | INFO | Successfully loaded 115 records into warehouse.dim_date.
+2026-06-29 19:41:28,947 | INFO | Starting load for: warehouse.dim_reaction
+2026-06-29 19:41:28,970 | INFO | Cleared warehouse.dim_reaction
+2026-06-29 19:41:29,095 | INFO | Successfully loaded 917 records into warehouse.dim_reaction.
+2026-06-29 19:42:00,819 | INFO | Starting load for: warehouse.fact_drug_safety_events
+2026-06-29 19:43:04,217 | INFO | Starting load for: warehouse.fact_drug_safety_events
+2026-06-29 19:43:04,231 | INFO | Cleared warehouse.fact_drug_safety_events
+2026-06-29 19:43:04,472 | INFO | Successfully loaded 1000 records into warehouse.fact_drug_safety_events.
+2026-06-29 19:43:15,456 | INFO | Starting load for: warehouse.fact_event_reaction
+2026-06-29 19:43:15,468 | INFO | Cleared warehouse.fact_event_reaction
+2026-06-29 19:43:16,213 | INFO | Successfully loaded 2712 records into warehouse.fact_event_reaction.
+2026-06-29 19:43:23,774 | INFO | Starting drug metrics calculation.
+2026-06-29 19:43:23,824 | INFO | Filtered drugs with fewer than 5 reports.
+2026-06-29 19:43:23,839 | INFO | Drug metrics calculation completed.
+2026-06-29 19:43:47,487 | INFO | Starting feature engineering.
+2026-06-29 19:43:47,554 | INFO | Feature engineering completed successfully.
+2026-06-29 19:44:02,360 | INFO | Starting Signal Priority Engine.
+2026-06-29 19:44:02,399 | INFO | Signal Priority Engine completed successfully.
+2026-06-29 19:44:23,426 | INFO | Starting drug-reaction pair analysis.
+2026-06-29 19:44:23,442 | INFO | Joined fact table with drug dimension.
+2026-06-29 19:44:23,444 | INFO | Joined with reaction data.
+2026-06-29 19:44:23,481 | INFO | Drug-reaction pair analysis finished.
+2026-06-29 19:44:31,859 | INFO | Starting drug-reaction pair analysis.
+2026-06-29 19:44:31,887 | INFO | Joined fact table with drug dimension.
+2026-06-29 19:44:31,890 | INFO | Joined with reaction data.
+2026-06-29 19:44:31,909 | INFO | Drug-reaction pair analysis finished.

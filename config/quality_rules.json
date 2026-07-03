@@ -1,0 +1,6 @@
+{
+    "min_reports_for_risk_analysis": 5,
+    "dataset_mode": "historical",
+    "expected_latest_date": "2021-06-29",
+    "max_allowed_delay_days": 30
+}

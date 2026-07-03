@@ -1,0 +1,4 @@
+{
+    "base_url": "https://api.fda.gov/drug/event.json",
+    "limit": 1000
+}
