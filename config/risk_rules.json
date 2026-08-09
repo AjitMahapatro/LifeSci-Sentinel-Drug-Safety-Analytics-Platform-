@@ -1,0 +1,18 @@
+{
+  "risk_levels": ["LOW", "MODERATE", "HIGH", "CRITICAL"],
+  "priority_based_risk_thresholds": {
+    "critical_min": 90.0,
+    "high_min": 70.0,
+    "moderate_min": 40.0,
+    "low_min": 0.0
+  },
+  "serious_rate_thresholds": {
+    "critical_min": 0.9,
+    "high_min": 0.7,
+    "moderate_min": 0.4,
+    "low_min": 0.0
+  },
+  "min_reports_for_risk_analysis": 5,
+  "methodology_note": "Risk classification is a transparent, configurable overlay on the existing priority engine. It is analytical decision support and does not establish causality."
+}
+
