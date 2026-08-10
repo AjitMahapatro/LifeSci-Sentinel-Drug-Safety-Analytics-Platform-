@@ -91,14 +91,14 @@ export function AiPage() {
                 className={
                   m.role === "user"
                     ? "max-w-[80%] rounded-lg bg-brand-600 px-3 py-2 text-sm text-white"
-                    : "max-w-[85%] rounded-lg border border-slate-200 bg-slate-50 px-3 py-2 text-sm text-slate-700"
+                    : "max-w-[85%] rounded-lg border border-slate-200 bg-slate-50 px-3 py-2 text-sm text-slate-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200"
                 }
               >
                 <div className="whitespace-pre-line">{m.text}</div>
                 {m.evidence && m.evidence.length > 0 && (
-                  <details className="mt-2 text-xs text-slate-500">
+                  <details className="mt-2 text-xs text-slate-500 dark:text-slate-400">
                     <summary className="cursor-pointer">Data basis</summary>
-                    <pre className="mt-2 max-h-40 overflow-auto rounded bg-slate-100 p-2 text-[10px]">
+                    <pre className="mt-2 max-h-40 overflow-auto rounded bg-slate-100 p-2 text-[10px] dark:bg-slate-950 dark:text-slate-200">
                       {JSON.stringify(m.evidence, null, 2)}
                     </pre>
                   </details>
@@ -108,14 +108,14 @@ export function AiPage() {
           ))}
           {loading && (
             <div className="flex justify-start">
-              <div className="rounded-lg border border-slate-200 bg-slate-50 px-3 py-2 text-sm text-slate-500">
+              <div className="rounded-lg border border-slate-200 bg-slate-50 px-3 py-2 text-sm text-slate-500 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300">
                 Analyzing…
               </div>
             </div>
           )}
         </div>
         <form
-          className="flex gap-2 border-t border-slate-100 p-3"
+          className="flex gap-2 border-t border-slate-100 p-3 dark:border-slate-700"
           onSubmit={(e) => {
             e.preventDefault();
             ask(input);
@@ -132,12 +132,7 @@ export function AiPage() {
           </button>
         </form>
       </div>
-
-      <p className="text-xs text-slate-400">
-        LifeSci Sentinel provides analytical decision support based on available
-        adverse-event data. It does not provide medical diagnosis, treatment
-        recommendations, or establish causality.
-      </p>
     </div>
   );
 }
+

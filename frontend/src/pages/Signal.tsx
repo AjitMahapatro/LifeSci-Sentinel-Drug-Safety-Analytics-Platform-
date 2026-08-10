@@ -173,7 +173,9 @@ function DqMark({ ok }: { ok?: boolean }) {
     <span
       aria-hidden="true"
       className={`flex h-4 w-4 items-center justify-center rounded-full text-[10px] font-bold ${
-        ok ? "bg-emerald-100 text-emerald-700" : "bg-amber-100 text-amber-700"
+        ok
+          ? "bg-emerald-100 text-emerald-700 dark:bg-emerald-500/20 dark:text-emerald-200"
+          : "bg-amber-100 text-amber-700 dark:bg-amber-500/20 dark:text-amber-200"
       }`}
     >
       {ok ? "✓" : "!"}

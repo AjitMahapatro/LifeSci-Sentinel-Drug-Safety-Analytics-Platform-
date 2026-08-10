@@ -4,7 +4,7 @@ import type { TrendPoint } from "../types";
 export function BarChart({
   data,
   height = 180,
-  color = "#1d6ef5",
+  color = "#2563eb",
 }: {
   data: { label: string; value: number; sub?: string }[];
   height?: number;
@@ -63,11 +63,11 @@ export function TrendChart({
         role="img"
         aria-label="Reporting trend chart"
       >
-        <path d={area} fill="#1d6ef5" opacity={0.12} />
+        <path d={area} fill="#3b82f6" opacity={0.14} />
         <path
           d={line}
           fill="none"
-          stroke="#1d6ef5"
+          stroke="#2563eb"
           strokeWidth={1.5}
           vectorEffect="non-scaling-stroke"
         />

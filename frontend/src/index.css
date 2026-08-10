@@ -3,43 +3,204 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    color-scheme: light;
+    --bg: #f8fafc;
+    --surface: #ffffff;
+    --surface-soft: #eff6ff;
+    --text: #0f172a;
+    --muted: #64748b;
+    --border: #e2e8f0;
+    --shadow: 0 1px 2px rgba(15, 23, 42, 0.06);
+  }
+
+  .dark {
+    color-scheme: dark;
+    --bg: #0b1220;
+    --surface: #111827;
+    --surface-soft: #1f2937;
+    --text: #f8fafc;
+    --muted: #94a3b8;
+    --border: #334155;
+    --shadow: 0 18px 60px rgba(15, 23, 42, 0.24);
+  }
+
   html {
     @apply antialiased;
+    background-color: var(--bg);
+    color: var(--text);
   }
+
   body {
-    @apply bg-slate-50 text-slate-800;
+    min-height: 100vh;
+    background-color: var(--bg);
+    color: var(--text);
   }
 }
 
 @layer components {
   .card {
-    @apply rounded-lg border border-slate-200 bg-white shadow-sm;
+    @apply rounded-3xl border bg-white shadow-sm ring-1 ring-slate-100;
+    background-color: var(--surface);
+    border-color: var(--border);
+    box-shadow: var(--shadow);
   }
+
   .card-header {
-    @apply border-b border-slate-100 px-4 py-3;
+    @apply border-b px-4 py-3;
+    border-color: var(--border);
+    background-color: var(--surface-soft);
   }
+
   .kpi-value {
-    @apply text-2xl font-semibold tracking-tight text-slate-900;
+    @apply text-3xl font-semibold tracking-tight text-slate-900;
   }
+
   .kpi-label {
-    @apply text-xs font-medium uppercase tracking-wide text-slate-500;
+    @apply text-xs font-semibold uppercase tracking-wide text-slate-500;
   }
+
   .table-base {
-    @apply w-full text-left text-sm;
+    @apply w-full text-left text-sm bg-white;
+    background-color: var(--surface);
   }
+
   .table-base thead th {
-    @apply px-3 py-2 text-xs font-semibold uppercase tracking-wide text-slate-500 border-b border-slate-200;
+    @apply px-3 py-3 text-xs font-semibold uppercase tracking-wide text-slate-500 border-b border-slate-200;
   }
+
   .table-base tbody tr {
     @apply border-b border-slate-100 hover:bg-slate-50;
   }
+
   .table-base tbody td {
-    @apply px-3 py-2 align-top;
+    @apply px-3 py-3 align-top;
   }
+
   .input-base {
-    @apply w-full rounded-md border border-slate-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500;
+    @apply w-full rounded-md border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500;
+    background-color: var(--surface);
+    border-color: var(--border);
+    color: var(--text);
   }
+
   .btn-primary {
-    @apply rounded-md bg-brand-600 px-4 py-2 text-sm font-medium text-white hover:bg-brand-700 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2 disabled:opacity-50;
+    @apply inline-flex items-center justify-center rounded-full bg-brand-600 px-4 py-2 text-sm font-semibold text-white shadow-sm shadow-brand-500/10 hover:bg-brand-700 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2 disabled:opacity-50;
+  }
+
+  .dark .card {
+    background-color: #111827;
+    border-color: #334155;
+    box-shadow: 0 20px 55px rgba(15, 23, 42, 0.18);
+  }
+
+  .dark .card-header {
+    background-color: #1f2937;
+    border-color: #334155;
+  }
+
+  .dark .kpi-value,
+  .dark .text-slate-900,
+  .dark .text-slate-800 {
+    color: #f8fafc !important;
+  }
+
+  .dark .text-slate-700 {
+    color: #cbd5e1 !important;
+  }
+
+  .dark .text-slate-600,
+  .dark .text-slate-500 {
+    color: #94a3b8 !important;
+  }
+
+  .dark .bg-slate-50 {
+    background-color: #111827 !important;
+  }
+
+  .dark .bg-white {
+    background-color: #111827 !important;
+  }
+
+  .dark .bg-slate-100 {
+    background-color: #1e293b !important;
+  }
+
+  .dark .bg-slate-200 {
+    background-color: #273449 !important;
+  }
+
+  .dark .border-slate-300,
+  .dark .border-slate-200,
+  .dark .border-slate-100 {
+    border-color: #334155 !important;
+  }
+
+  .dark .divide-slate-100 > * + *,
+  .dark .divide-slate-300 > * + * {
+    border-color: #334155 !important;
+  }
+
+  .dark .hover\:bg-slate-100:hover,
+  .dark .hover\:bg-slate-50:hover {
+    background-color: #273449 !important;
+  }
+
+  .dark .text-slate-400 {
+    color: #94a3b8 !important;
+  }
+
+  .dark .text-slate-300 {
+    color: #cbd5e1 !important;
+  }
+
+  .dark .text-brand-700 {
+    color: #7dd3fc !important;
+  }
+
+  .dark .bg-brand-50 {
+    background-color: rgba(59, 130, 246, 0.14) !important;
+  }
+
+  .dark .input-base {
+    background-color: #1f2937;
+    border-color: #334155;
+    color: #f8fafc;
+  }
+
+  .dark .table-base {
+    background-color: #111827;
+  }
+
+  .dark .table-base thead th {
+    color: #94a3b8;
+    border-color: #334155;
+  }
+
+  .dark .table-base tbody tr {
+    border-color: #334155;
+  }
+
+  .dark .table-base tbody tr:hover {
+    background-color: #1f2937;
+  }
+
+  .dark .table-base tbody td {
+    color: #e2e8f0;
+  }
+
+  .dark .btn-primary {
+    @apply bg-brand-600 hover:bg-brand-700;
+  }
+
+  .dark .rounded-lg.border.border-slate-200.bg-slate-50,
+  .dark .rounded-lg.border.border-slate-200.bg-white {
+    background-color: #1f2937 !important;
+    border-color: #334155 !important;
+  }
+
+  .dark .rounded-full.border.border-slate-200.bg-slate-50 {
+    background-color: #1f2937 !important;
+    border-color: #334155 !important;
   }
 }

@@ -4,7 +4,7 @@ export function Loading({ label = "Loading data…" }: { label?: string }) {
   return (
     <div
       role="status"
-      className="flex items-center justify-center gap-2 py-12 text-sm text-slate-500"
+      className="flex items-center justify-center gap-2 py-12 text-sm text-slate-500 dark:text-slate-300"
     >
       <svg
         className="h-4 w-4 animate-spin text-brand-600"
@@ -35,7 +35,7 @@ export function ErrorState({ message }: { message: string }) {
   return (
     <div
       role="alert"
-      className="rounded-lg border border-red-200 bg-red-50 px-4 py-6 text-center text-sm text-red-700"
+      className="rounded-lg border border-red-200 bg-red-50 px-4 py-6 text-center text-sm text-red-700 dark:border-red-700 dark:bg-red-900/20 dark:text-red-200"
     >
       <div className="mb-1 font-semibold">Unable to load data</div>
       <div>{message}</div>
@@ -51,8 +51,8 @@ export function EmptyState({
   message?: string;
 }) {
   return (
-    <div className="rounded-lg border border-dashed border-slate-300 bg-slate-50 px-4 py-10 text-center text-sm text-slate-500">
-      <div className="mb-1 font-medium text-slate-600">{title}</div>
+    <div className="rounded-lg border border-dashed border-slate-300 bg-slate-50 px-4 py-10 text-center text-sm text-slate-500 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300">
+      <div className="mb-1 font-medium text-slate-600 dark:text-slate-200">{title}</div>
       {message && <div>{message}</div>}
     </div>
   );
@@ -61,10 +61,11 @@ export function EmptyState({
 type Level = "LOW" | "MODERATE" | "HIGH" | "CRITICAL" | string;
 
 const levelStyles: Record<string, string> = {
-  LOW: "bg-emerald-50 text-emerald-700 border-emerald-200",
-  MODERATE: "bg-amber-50 text-amber-700 border-amber-200",
-  HIGH: "bg-orange-50 text-orange-700 border-orange-200",
-  CRITICAL: "bg-red-50 text-red-700 border-red-200",
+  LOW: "bg-emerald-50 text-emerald-700 border-emerald-200 dark:bg-emerald-500/15 dark:text-emerald-200 dark:border-emerald-500/30",
+  MODERATE: "bg-amber-50 text-amber-700 border-amber-200 dark:bg-amber-500/15 dark:text-amber-200 dark:border-amber-500/30",
+  HIGH: "bg-orange-50 text-orange-700 border-orange-200 dark:bg-orange-500/15 dark:text-orange-200 dark:border-orange-500/30",
+  CRITICAL: "bg-red-50 text-red-700 border-red-200 dark:bg-red-500/15 dark:text-red-200 dark:border-red-500/30",
+  DEFAULT: "bg-slate-100 text-slate-600 border-slate-200 dark:bg-slate-800 dark:text-slate-100 dark:border-slate-700",
 };
 
 export function RiskBadge({ level }: { level: Level }) {
