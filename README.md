@@ -223,19 +223,19 @@ The React frontend provides interactive analytics dashboards with a professional
 
 ### Web — Executive Overview
 
-![Web — Executive Overview](Web%20%E2%80%94%20Executive%20Overview)
+![Web — Executive Overview](Web%20%E2%80%94%20Executive%20Overview.png)
 
 ### Web — Drug Investigation
 
-![Web — Drug Investigation](Web%20%E2%80%94%20Drug%20Investigation)
+![Web — Drug Investigation](Web%20%E2%80%94%20Drug%20Investigation.png)
 
 ### Web — Safety Signal Monitor
 
-![Web — Safety Signal Monitor](Web%20%E2%80%94%20Safety%20Signal%20Monitor)
+![Web — Safety Signal Monitor](Web%20%E2%80%94%20Safety%20Signal%20Monitor.png)
 
 ### Web — AI Assistant
 
-![Web — AI Assistant](Web%20%E2%80%94%20AI%20Assistant)
+![Web — AI Assistant](Web%20%E2%80%94%20AI%20Assistant.png)
 
 ---
 
