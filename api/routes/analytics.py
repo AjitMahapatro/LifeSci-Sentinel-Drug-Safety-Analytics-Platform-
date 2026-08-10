@@ -43,13 +43,16 @@ def analytics_overview(db: DatabaseService = Depends(_db)) -> dict:
         raise HTTPException(status_code=503, detail="Analytics unavailable") from exc
 
 
-@router.get("/analytics/trends")
-def analytics_trends(db: DatabaseService = Depends(_db)) -> dict:
+@router.get("/analytics/overview", response_model=AnalyticsOverview)
+def analytics_overview(db: DatabaseService = Depends(_db)) -> dict:
     try:
-        overview = db.overview()
-        return {"trends": overview.get("trends", [])}
+        return db.overview()
     except Exception as exc:
-        raise HTTPException(status_code=503, detail="Analytics unavailable") from exc
+        print(f"ANALYTICS OVERVIEW ERROR: {repr(exc)}")
+        raise HTTPException(
+            status_code=503,
+            detail=f"Analytics unavailable: {str(exc)}"
+        ) from exc
 
 
 # ---------------------------------------------------------------------------
