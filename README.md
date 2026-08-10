@@ -202,20 +202,19 @@ The existing Power BI dashboards remain an analytical client of the PostgreSQL /
 
 ### Power BI — Executive Overview
 
-![Power BI — Executive Overview](Executive%20Overview%281%29)
+![Power BI — Executive Overview](Power%20BI%20%E2%80%94%20Executive%20Overview.png)
 
 ### Power BI — Drug Investigation
 
-![Power BI — Drug Investigation](Drug%20Investigation%282%29)
+![Power BI — Drug Investigation](Power%20BI%20%E2%80%94%20Drug%20Investigation.png)
 
 ### Power BI — Reaction Investigation
 
-![Power BI — Reaction Investigation](Reaction%20Investigation%283%29)
+![Power BI — Reaction Investigation](Power%20BI%20%E2%80%94%20Reaction%20Investigation.png)
 
 ### Power BI — Safety Signal Monitor
 
-![Power BI — Safety Signal Monitor](Safety%20Signal%20Monitor%284%29)
-
+![Power BI — Safety Signal Monitor](Power%20BI%20%E2%80%94%20Safety%20Signal%20Monitor.png)
 ---
 
 ## Web Application
