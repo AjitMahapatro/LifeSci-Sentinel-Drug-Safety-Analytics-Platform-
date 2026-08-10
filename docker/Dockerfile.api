@@ -1,0 +1,40 @@
+# LifeSci Sentinel API (FastAPI + ETL database loader).
+#
+# Build context: repository root (so that src/, api/, config/, data/, docker/
+# are all available).
+
+FROM python:3.11-slim
+
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PIP_NO_CACHE_DIR=1
+
+# System deps: psql client for schema init + build tools for psycopg2.
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+        postgresql-client \
+        build-essential \
+        libpq-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+# Copy requirements first for better layer caching.
+COPY requirements.txt .
+
+RUN pip install --upgrade pip && pip install -r requirements.txt
+
+# Copy the rest of the repository.
+COPY api ./api
+COPY src ./src
+COPY config ./config
+COPY data ./data
+COPY docker ./docker
+COPY tests ./tests
+
+# Make entrypoint executable.
+RUN chmod +x docker/entrypoint.sh
+
+EXPOSE 8000
+
+ENTRYPOINT ["bash", "docker/entrypoint.sh"]

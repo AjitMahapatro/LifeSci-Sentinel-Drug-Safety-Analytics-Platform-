@@ -298,6 +298,91 @@ npm run dev
 
 ---
 
+## Docker Deployment (docker-compose)
+
+The full stack (PostgreSQL + FastAPI + React/nginx) can be run with a single
+command. The frontend is served by nginx and proxies `/api` to the FastAPI
+container over the internal Docker network, so no hardcoded API URL is needed.
+
+### Requirements
+- Docker 20.10+ with Docker Compose v2 (`docker compose`)
+
+### Quick start
+```bash
+# 1. Create your environment file from the template (safe placeholders included)
+cp .env.example .env
+#    Edit .env if you changed any defaults (DB creds, ports, CORS, optional LLM key).
+
+# 2. Build and start everything
+docker compose up --build
+```
+
+On first start the API container:
+1. Waits for PostgreSQL to be ready.
+2. Applies the `warehouse` schema (`docker/init/01_schema.sql`).
+3. Loads the gold-layer CSVs into the warehouse (`src/database/load_all.py`).
+4. Starts uvicorn.
+
+Restarts skip the data load unless `FORCE_SEED=1`.
+
+### URLs / ports
+| Service | URL |
+|---------|-----|
+| Frontend (React + nginx) | http://localhost:8080 |
+| API (direct) | http://localhost:8000 |
+| API health check | http://localhost:8000/health |
+| PostgreSQL | localhost:5432 |
+
+Ports are overridable in `.env` (`FRONTEND_PORT`, `API_PORT`, `DB_PORT`).
+
+### Stop / teardown
+```bash
+docker compose down          # stop containers
+docker compose down -v       # stop and remove the Postgres volume (data)
+```
+
+### Verifying the stack
+```bash
+# Health check through the frontend proxy (browser -> nginx -> api):
+curl http://localhost:8080/health
+
+# Direct API health:
+curl http://localhost:8000/health
+
+# Overview endpoint:
+curl http://localhost:8000/api/analytics/overview
+```
+
+### Environment variables (Docker)
+| Variable | Description | Default |
+|----------|-------------|---------|
+| `POSTGRES_USER` / `POSTGRES_PASSWORD` / `POSTGRES_DB` | Postgres credentials/DB | `lifesci` |
+| `DB_HOST` | DB hostname (internal service name `db` in compose) | `db` |
+| `DB_PORT` / `API_PORT` / `FRONTEND_PORT` | Host port bindings | `5432` / `8000` / `8080` |
+| `CORS_ORIGINS` | Comma-separated origins allowed to call the API directly | `http://localhost:8080,http://localhost:5173` |
+| `UVICORN_WORKERS` | API worker count | `1` |
+| `DB_WAIT_TIMEOUT` | Seconds to wait for DB readiness | `90` |
+| `FORCE_SEED` | Set `1` to force a full gold reload on restart | `0` |
+| `VITE_API_URL` | Public API base for a split deployment (empty = same-origin proxy) | *(empty)* |
+| `OPENAI_API_KEY` / `OPENAI_BASE_URL` / `OPENAI_MODEL` | Optional LLM enhancement; disabled unless key supplied | *(empty)* |
+
+### CORS in production
+Because the compose frontend uses a same-origin nginx proxy, CORS is not
+required for the normal browser flow. It only matters if you call the API
+directly from another origin or split the frontend/backend onto separate
+domains. In that case set `CORS_ORIGINS` to your deployed frontend domain(s),
+e.g. `CORS_ORIGINS=https://app.example.com`.
+
+### Split deployment (optional)
+If you deploy the frontend and API separately, build the frontend with
+`VITE_API_URL` pointing at the public API base, e.g.:
+```bash
+docker compose build --build-arg VITE_API_URL=https://api.example.com frontend
+```
+or set `VITE_API_URL` in `.env`. Otherwise the same-origin nginx proxy is used.
+
+---
+
 ## Environment Variables
 
 | Variable | Description |
@@ -309,6 +394,7 @@ npm run dev
 | `DB_PASSWORD` | Database password |
 | `OPENAI_API_KEY` | *(optional)* LLM key for enhanced explanations |
 | `LLM_BASE_URL` | *(optional)* OpenAI-compatible base URL |
+| `CORS_ORIGINS` | Comma-separated allowed origins for the API |
 
 See `.env.example` for a template. **No credentials are committed.**
 

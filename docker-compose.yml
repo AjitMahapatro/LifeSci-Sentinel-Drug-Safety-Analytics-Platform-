@@ -1,0 +1,74 @@
+name: lifesci-sentinel
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: lifesci-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-lifesci}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-lifesci}
+      POSTGRES_DB: ${POSTGRES_DB:-lifesci}
+    volumes:
+      - db_data:/var/lib/postgresql/data
+      # Idempotent schema bootstrap run by the DB on first start too.
+      - ./docker/init/01_schema.sql:/docker-entrypoint-initdb.d/01_schema.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-lifesci} -d ${POSTGRES_DB:-lifesci}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 15s
+    ports:
+      - "${DB_PORT:-5432}:5432"
+
+  api:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.api
+    image: lifesci-api:latest
+    container_name: lifesci-api
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_NAME: ${POSTGRES_DB:-lifesci}
+      DB_USER: ${POSTGRES_USER:-lifesci}
+      DB_PASSWORD: ${POSTGRES_PASSWORD:-lifesci}
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:8080,http://localhost:5173}
+      DB_WAIT_TIMEOUT: ${DB_WAIT_TIMEOUT:-90}
+      UVICORN_WORKERS: ${UVICORN_WORKERS:-1}
+      FORCE_SEED: ${FORCE_SEED:-0}
+      # Optional LLM integration (disabled unless a key is supplied).
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_BASE_URL: ${OPENAI_BASE_URL:-}
+      OPENAI_MODEL: ${OPENAI_MODEL:-}
+    healthcheck:
+      test: ["CMD", "python", "-c", "import http.client; c=http.client.HTTPConnection('localhost',8000); c.request('GET','/health'); exit(0 if c.getresponse().status==200 else 1)"]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+      start_period: 40s
+    ports:
+      - "${API_PORT:-8000}:8000"
+
+  frontend:
+    build:
+      context: frontend
+      dockerfile: Dockerfile
+      args:
+        VITE_API_URL: ${VITE_API_URL:-}
+    image: lifesci-frontend:latest
+    container_name: lifesci-frontend
+    restart: unless-stopped
+    depends_on:
+      api:
+        condition: service_healthy
+    ports:
+      - "${FRONTEND_PORT:-8080}:80"
+
+volumes:
+  db_data:

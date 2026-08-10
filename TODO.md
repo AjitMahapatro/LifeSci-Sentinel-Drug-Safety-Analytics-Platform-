@@ -1,42 +1,20 @@
-# LifeSci Sentinel — Implementation TODO
+# Deployment Implementation Checklist
 
-## Phase 1 — Reusable Analytics Service ✅ COMPLETE
-- [x] Created `src/analytics/service.py` (reusable, type-hinted functions)
-- [x] Created `config/risk_rules.json` (configurable LOW/MODERATE/HIGH/CRITICAL thresholds)
-- [x] Verified: serious-rate, priority, risk classification functions
+## Docker + docker-compose deployment of LifeSci Sentinel
 
-## Phase 2 — FastAPI ✅ COMPLETE
-- [x] Created `api/main.py`, `dependencies.py`, `routes/`, `schemas/`, `services/`
-- [x] Implemented endpoints: health, analytics (overview, trends), drugs, reactions, signals, investigation, ai
-- [x] Endpoints verified: 16 required endpoints present
+- [x] Create `docker/Dockerfile.api` — Python backend (wait-for-db, schema init, data load, uvicorn)
+- [x] Create `docker/init/01_schema.sql` — warehouse schema + tables bootstrap (DDL missing from repo)
+- [x] Create `docker/wait_for_db.py` — DB readiness helper used by backend entrypoint
+- [x] Create `frontend/Dockerfile` — multi-stage Vite build served by nginx
+- [x] Create `frontend/nginx.conf` — serve static build + proxy `/api` to FastAPI service
+- [x] Create `docker-compose.yml` — db, api, frontend services, healthchecks, env wiring
+- [x] Create `.dockerignore` — exclude lifescivenv, .git, node_modules, .env, logs, caches
+- [x] Create/update `.env.example` — safe placeholders (DB, POSTGRES, CORS_ORIGINS, optional OPENAI)
+- [x] Add optional `VITE_API_URL` support in `frontend/src/api.ts` (+ `vite-env.d.ts`)
+- [x] Update `README.md` with Docker deployment instructions
+- [x] Verify: `docker-compose.yml` is valid + frontend production build succeeds
+- [x] Run existing test suite (43 tests) after deployment changes — `43 passed`
+- [x] Run `docker compose up --build` on a machine with Docker installed — verified end-to-end
+- [x] Fix: entrypoint passes `PGPASSWORD` to psql (non-interactive schema init)
+- [x] Copy `tests/` into API image so the suite can run inside the container against the DB
 
-## Phase 3 — Signal Investigation ✅ COMPLETE
-- [x] Implemented explainable investigation endpoint (real data + rationale + DQ status)
-
-## Phase 4 — AI Assistant ✅ COMPLETE
-- [x] Grounded intent engine + rule-based explanation (offline default)
-- [x] Optional OpenAI-compatible LLM behind env flag
-- [x] Read-only, SELECT-only, whitelisted SQL; destructive SQL blocked
-
-## Phase 5 — React Frontend (Vite + TS + Tailwind) ✅ COMPLETE
-- [x] 6 pages: Overview, Drug, Reaction, Signals, Signal Investigation, AI Assistant
-- [x] Frontend production build verified (tsc + vite build passed)
-
-## Phase 6 — Integration ✅ COMPLETE
-- [x] React -> FastAPI -> Analytics -> PostgreSQL
-
-## Phase 7 — Testing (pytest) ✅ COMPLETE
-- [x] connection, serious-rate, priority, risk, services, endpoints, AI validation
-- [x] 43 tests passing
-
-## Phase 8 — Documentation ✅ COMPLETE
-- [x] Rewrote README (overview, architecture, data engineering, warehouse, DQ, methodology, Power BI, FastAPI, React, AI, endpoints, setup, env, testing, limitations)
-- [x] `.env.example` verified present
-- [x] `requirements.txt` now includes scikit-learn, fastapi, uvicorn, pydantic, pytest, httpx
-
-## Phase 9 — Final Review ✅ COMPLETE
-- [x] Complete system audit performed
-- [x] Frontend build verified
-- [x] Test suite verified (43 passed)
-- [x] Removed unnecessary artifacts (.pytest_cache, empty notebooks/, empty src/dq/)
-- [x] Added .pytest_cache/ to .gitignore
