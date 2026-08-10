@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from fastapi import APIRouter, Depends, HTTPException, Query
+from urllib.parse import unquote
 
 from api.schemas.models import (
     AIQueryRequest,
@@ -88,11 +89,13 @@ def get_drug(drug_name: str, db: DatabaseService = Depends(_db)) -> dict:
             ),
             4,
         )
+    signals = db.signals(limit=1000).get("signals", [])
+    drug_signals = [s for s in signals if s["drug"] == drug_name]
     return {
         **detail,
         "top_reactions": reactions,
         "trends": trends,
-        "signals": db.signals(limit=10).get("signals", []),
+        "signals": drug_signals,
     }
 
 
@@ -151,6 +154,8 @@ def list_signals(
 
 @router.get("/signals/{drug_name}", response_model=SignalList)
 def signals_for_drug(drug_name: str, db: DatabaseService = Depends(_db)) -> dict:
+    # Path parameters may be percent-encoded by the frontend; decode here
+    drug_name = unquote(drug_name)
     if not db.drug_detail(drug_name):
         raise HTTPException(status_code=404, detail=f"Drug '{drug_name}' not found")
     all_signals = db.signals(limit=1000).get("signals", [])
@@ -162,6 +167,9 @@ def signals_for_drug(drug_name: str, db: DatabaseService = Depends(_db)) -> dict
 def get_signal(
     drug_name: str, reaction_name: str, db: DatabaseService = Depends(_db)
 ) -> dict:
+    # Decode percent-encoded path params to match DB values exactly
+    drug_name = unquote(drug_name)
+    reaction_name = unquote(reaction_name)
     detail = db.signal_detail(drug_name, reaction_name)
     if not detail:
         raise HTTPException(
@@ -178,6 +186,9 @@ def get_signal(
 def signal_investigation(
     drug_name: str, reaction_name: str, db: DatabaseService = Depends(_db)
 ) -> dict:
+    # Decode percent-encoded path params to match DB values exactly
+    drug_name = unquote(drug_name)
+    reaction_name = unquote(reaction_name)
     detail = db.signal_detail(drug_name, reaction_name)
     if not detail:
         raise HTTPException(
