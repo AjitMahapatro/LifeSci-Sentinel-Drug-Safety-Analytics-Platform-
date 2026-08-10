@@ -198,14 +198,23 @@ The existing Power BI dashboards remain an analytical client of the PostgreSQL /
 
 ## Power BI Dashboards
 
-The existing Power BI dashboards remain an analytical client of the PostgreSQL / analytics layer, preserved and compatible. These are preserved and compatible. The web application *complements* Power BI rather than duplicating it.
+The existing Power BI dashboards remain an analytical client of the PostgreSQL / analytics layer, preserved and compatible. The web application complements Power BI rather than duplicating it.
 
-| Dashboard | Screenshot |
-|-----------|---|
-| Power BI — Executive Overview | ![Power BI — Executive Overview](Executive%20Overview%281%29) |
-| Power BI — Drug Investigation | ![Power BI — Drug Investigation](Drug%20Investigation%282%29) |
-| Power BI — Reaction Investigation | ![Power BI — Reaction Investigation](Reaction%20Investigation%283%29) |
-| Power BI — Safety Signal Monitor | ![Power BI — Safety Signal Monitor](Safety%20Signal%20Monitor%284%29) |
+### Power BI — Executive Overview
+
+![Power BI — Executive Overview](Executive%20Overview%281%29)
+
+### Power BI — Drug Investigation
+
+![Power BI — Drug Investigation](Drug%20Investigation%282%29)
+
+### Power BI — Reaction Investigation
+
+![Power BI — Reaction Investigation](Reaction%20Investigation%283%29)
+
+### Power BI — Safety Signal Monitor
+
+![Power BI — Safety Signal Monitor](Safety%20Signal%20Monitor%284%29)
 
 ---
 
@@ -213,12 +222,23 @@ The existing Power BI dashboards remain an analytical client of the PostgreSQL /
 
 The React frontend provides interactive analytics dashboards with a professional, responsive user interface.
 
-| Page | Screenshot |
-|------|---|
-| Web — Executive Overview | ![Web — Executive Overview](Web%20%E2%80%94%20Executive%20Overview) |
-| Web — Drug Investigation | ![Web — Drug Investigation](Web%20%E2%80%94%20Drug%20Investigation) |
-| Web — Safety Signal Monitor | ![Web — Safety Signal Monitor](Web%20%E2%80%94%20Safety%20Signal%20Monitor) |
-| Web — AI Assistant | ![Web — AI Assistant](Web%20%E2%80%94%20AI%20Assistant) |
+### Web — Executive Overview
+
+![Web — Executive Overview](Web%20%E2%80%94%20Executive%20Overview)
+
+### Web — Drug Investigation
+
+![Web — Drug Investigation](Web%20%E2%80%94%20Drug%20Investigation)
+
+### Web — Safety Signal Monitor
+
+![Web — Safety Signal Monitor](Web%20%E2%80%94%20Safety%20Signal%20Monitor)
+
+### Web — AI Assistant
+
+![Web — AI Assistant](Web%20%E2%80%94%20AI%20Assistant)
+
+---
 
 ---
 
