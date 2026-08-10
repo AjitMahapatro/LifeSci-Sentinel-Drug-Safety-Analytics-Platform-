@@ -1,20 +1,20 @@
 # 🧬 LifeSci Sentinel
 
-**LifeSci Sentinel** is an end-to-end healthcare drug-safety intelligence platform that transforms real-world pharmacovigilance data from the **OpenFDA API** into validated, explainable safety signals served through a modern web application.
+**LifeSci Sentinel** is an end-to-end healthcare drug-safety intelligence platform that transforms real-world pharmacovigilance data from the **OpenFDA API** into validated, explainable safety signals.
 
-The platform combines **Data Engineering, Data Warehousing, SQL Analytics, Data Science, FastAPI, React, and a grounded AI assistant** to demonstrate how raw regulatory data can become trustworthy analytical intelligence for pharmaceutical and life-science decision support.
+The platform combines **Data Engineering, Data Warehousing, SQL Analytics, Data Science, FastAPI, React, and a grounded AI assistant** to demonstrate how raw regulatory data can become trustworthy analytical decision support.
 
-> **Important:** LifeSci Sentinel provides **analytical decision support** based on available adverse-event reporting data. It does **not** provide medical diagnosis, treatment recommendations, or establish causality. All risk classifications are analytical signals that require further investigation.
+> **Important:** LifeSci Sentinel provides **analytical decision support** based on available adverse-event reporting data. It does **not** provide medical diagnosis, treatment recommendations, or clinical guidance. Always consult qualified healthcare professionals.
 
 ---
 
 ## 📌 Original (Legacy) Version — Power BI + PostgreSQL
 
-This release is the **updated full-stack version** of the project. It **builds on and preserves** the original foundation that was built first. The legacy version remains compatible and is described here for clarity.
+This release is the **updated full-stack version** of the project. It **builds on and preserves** the original foundation that was built first. The legacy version remains compatible and is described here for reference and continuity.
 
 ### Original Foundation
 
-The original project was an **end-to-end data engineering + analytics pipeline** that converted raw OpenFDA pharmacovigilance data into interactive **Power BI** dashboards backed by **PostgreSQL**:
+The original project was an **end-to-end data engineering + analytics pipeline** that converted raw OpenFDA pharmacovigilance data into interactive **Power BI** dashboards backed by **PostgreSQL**.
 
 ```
 OpenFDA API
@@ -53,7 +53,7 @@ The original **PostgreSQL** schema **`warehouse`** (star schema) remains the aut
 | `warehouse.fact_drug_safety_events` | Fact |
 | `warehouse.fact_event_reaction` | Fact |
 
-The original **priority methodology** (`signal_priority.py`) is preserved exactly: `priority_score = 0.40×serious_rate + 0.35×normalized_reports + 0.25×reaction_diversity_index`, with labels **High** (≥70), **Medium** (≥40), **Low** (<40).
+The original **priority methodology** (`signal_priority.py`) is preserved exactly: `priority_score = 0.40×serious_rate + 0.35×normalized_reports + 0.25×reaction_diversity_index`, with labels **[High ≥70, Medium ≥40, Low <40]**.
 
 ### What the Updated Version Adds
 
@@ -188,20 +188,31 @@ A new, transparent classifier (`service.classify_risk`) maps signals to:
 LOW · MODERATE · HIGH · CRITICAL
 ```
 
-Thresholds are configurable in `config/risk_rules.json`. This layer consumes the existing priority score and serious rate and is **documented as an analytical overlay** — it does not alter the existing priority output.
+Thresholds are configurable in `config/risk_rules.json`. This layer consumes the existing priority score and serious rate and is **documented as an analytical overlay** — it does not alter the original methodology or scores.
 
 ---
 
-## Power BI
+## Power BI Dashboards
 
-The existing Power BI dashboards remain an analytical client of the PostgreSQL / analytics layer:
+The existing Power BI dashboards remain an analytical client of the PostgreSQL / analytics layer. Screenshots:
 
-1. **Executive Overview**
-2. **Drug Investigation**
-3. **Reaction Investigation**
-4. **Safety Signal Monitor**
+- [Power BI — Executive Overview](Power%20BI%20%E2%80%94%20Executive%20Overview)
+- [Power BI — Drug Investigation](Power%20BI%20%E2%80%94%20Drug%20Investigation)
+- [Power BI — Reaction Investigation](Power%20BI%20%E2%80%94%20Reaction%20Investigation)
+- [Power BI — Safety Signal Monitor](Power%20BI%20%E2%80%94%20Safety%20Signal%20Monitor)
 
 These are preserved and compatible. The web application *complements* Power BI rather than duplicating it.
+
+---
+
+## Web Application
+
+The React frontend provides interactive analytics dashboards. Screenshots:
+
+- [Web — Executive Overview](Web%20%E2%80%94%20Executive%20Overview)
+- [Web — Drug Investigation](Web%20%E2%80%94%20Drug%20Investigation)
+- [Web — Safety Signal Monitor](Web%20%E2%80%94%20Safety%20Signal%20Monitor)
+- [Web — AI Assistant](Web%20%E2%80%94%20AI%20Assistant)
 
 ---
 
@@ -444,14 +455,3 @@ Tests cover: database connection, serious-rate calculation, priority score, risk
 - Multi-region / multi-source pharmacovigilance data
 
 ---
-
-## Screenshots
-
-*(Add screenshots of the React frontend pages here.)*
-
-- Executive Overview
-- Drug Investigation
-- Reaction Investigation
-- Safety Signals
-- Signal Investigation
-- AI Assistant
